@@ -187,7 +187,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/25/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/9f815f0d.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpeg">
@@ -201,7 +201,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/03/25/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/9f815f0d.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（11）——窗口信号与槽以及主窗口循环(项目完)</a>
         </h2>
 
         <div class="post-meta">
@@ -211,11 +211,31 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-03-25 05:48:39" itemprop="dateCreated datePublished" datetime="2020-03-25T05:48:39+00:00">2020-03-25</time>
+              <time title="创建时间：2020-03-30 00:31:00" itemprop="dateCreated datePublished" datetime="2020-03-30T00:31:00+00:00">2020-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-29 16:43:35" itemprop="dateModified" datetime="2020-03-29T16:43:35+00:00">2020-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
             </span>
 
           
-            <span id="/2020/03/25/hello-world/" class="post-meta-item leancloud_visitors" data-flag-title="Hello World" title="阅读次数">
+            <span id="/9f815f0d.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（11）——窗口信号与槽以及主窗口循环(项目完)" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -230,8 +250,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/03/25/hello-world/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/03/25/hello-world/" itemprop="commentCount"></span>
+    <a title="valine" href="/9f815f0d.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/9f815f0d.html" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -241,14 +261,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>428</span>
+              <span>5.8k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>5 分钟</span>
             </span>
 
         </div>
@@ -260,35 +280,1144 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<div class="toc">
+          <!--toc-->
 
-<!-- toc -->
 
+<h2 id="管理员主页信号与槽"><a href="#管理员主页信号与槽" class="headerlink" title="管理员主页信号与槽"></a>管理员主页信号与槽</h2><h3 id="窗口内信号与槽"><a href="#窗口内信号与槽" class="headerlink" title="窗口内信号与槽"></a>窗口内信号与槽</h3><p>在管理员主页代码的<code>setUpUI</code>中，可以看到如下代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">self.addBookButton.clicked.connect(self.addBookButtonClicked)</span><br><span class="line">        self.dropBookButton.clicked.connect(self.dropBookButtonClicked)</span><br><span class="line">        self.userManageButton.clicked.connect(self.userManage)</span><br></pre></td></tr></table></figure>
+<p>这是Qt自带的信号与槽机制，也就是<code>QPushButton</code>点击触发，分别是</p>
 <ul>
-<li><a href="#quick-start">Quick Start</a></li>
-<li><a href="#create-a-new-post">Create a new post</a></li>
-<li><a href="#run-server">Run server</a></li>
-<li><a href="#generate-static-files">Generate static files</a></li>
-<li><a href="#deploy-to-remote-sites">Deploy to remote sites</a></li>
+<li>添加书籍按钮点击触发弹出添加书籍对话框 </li>
+<li>淘汰书籍按钮点击触发弹出淘汰书籍对话框</li>
+<li>用户管理按钮点击弹出用户管理对话框</li>
 </ul>
-<!-- tocstop -->
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/9f815f0d.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
 
-</div>
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
 
-<h1><span id="quick-start">Quick Start</span><a href="#quick-start" class="header-anchor">#</a></h1><h1><span id="create-a-new-post">Create a new post</span><a href="#create-a-new-post" class="header-anchor">#</a></h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/77aca64.html">
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h1><span id="run-server">Run server</span><a href="#run-server" class="header-anchor">#</a></h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h1><span id="generate-static-files">Generate static files</span><a href="#generate-static-files" class="header-anchor">#</a></h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/77aca64.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（10）—— 学生主页以及修改代码</a>
+        </h2>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h1><span id="deploy-to-remote-sites">Deploy to remote sites</span><a href="#deploy-to-remote-sites" class="header-anchor">#</a></h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+              <time title="创建时间：2020-03-30 00:27:00" itemprop="dateCreated datePublished" datetime="2020-03-30T00:27:00+00:00">2020-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-29 16:43:35" itemprop="dateModified" datetime="2020-03-29T16:43:35+00:00">2020-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
 
+          
+            <span id="/77aca64.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（10）—— 学生主页以及修改代码" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/77aca64.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/77aca64.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>9.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>8 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+
+<h2 id="学生主页设计"><a href="#学生主页设计" class="headerlink" title="学生主页设计"></a>学生主页设计</h2><h3 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h3><p>在学生主页，主要实现以下功能：<br>1、借阅书籍<br>2、归还书籍<br>3、借阅状态查询<br>4、书籍库存查询<br>使用四个<code>QPushButton</code>，分别用于弹出借阅书籍对话框、归还书籍对话框 、切换到借阅状态查询、切换到书籍库存查询</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/77aca64.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/5ec72e4f.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/5ec72e4f.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（9）——借阅状态查询</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-03-30 00:25:00" itemprop="dateCreated datePublished" datetime="2020-03-30T00:25:00+00:00">2020-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-29 16:43:35" itemprop="dateModified" datetime="2020-03-29T16:43:35+00:00">2020-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/5ec72e4f.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（9）——借阅状态查询" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/5ec72e4f.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/5ec72e4f.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>4.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>这个可以说是实现的最简单的一个功能了，只需要结合一下<code>QTableView</code>和<code>QSqlQueryModel</code>对<code>User_Book</code>表和<code>Book</code>表做一个联查即可，直接贴上代码如下</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/5ec72e4f.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/8effeb9b.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/8effeb9b.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（8）——借书/还书功能</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-03-30 00:22:00" itemprop="dateCreated datePublished" datetime="2020-03-30T00:22:00+00:00">2020-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-29 16:43:35" itemprop="dateModified" datetime="2020-03-29T16:43:35+00:00">2020-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/8effeb9b.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（8）——借书/还书功能" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/8effeb9b.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/8effeb9b.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>15k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>13 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+
+<h2 id="借书功能实现"><a href="#借书功能实现" class="headerlink" title="借书功能实现"></a>借书功能实现</h2><h3 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h3><p>本来借书的信息都是应该有RFID识别得到的，但是作为大作业，只能让用户输入信息了，但是书名之类的都不唯一，所以采取了与淘汰书籍一样的操作——让用户输入书号，自动匹配书本信息，然后确认借阅</p>
+<p>借阅时，需要处理的逻辑如下：</p>
+<ul>
+<li>用户输入的书号存在，就匹配信息给用户 </li>
+<li>不存在就点击借阅，给出警告</li>
+<li>借阅书籍数已经达到上限5本 ，给出警告</li>
+<li>不允许借阅同样的书</li>
+<li>更新<code>Book</code>表信息的借阅次数，剩余可借阅书数</li>
+<li>在<code>User_Book</code>表插入记录</li>
+<li>借阅成功给出提示</li>
+</ul>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/8effeb9b.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/f6234a21.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/f6234a21.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（7）——用户管理</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-03-30 00:14:00" itemprop="dateCreated datePublished" datetime="2020-03-30T00:14:00+00:00">2020-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-29 16:43:35" itemprop="dateModified" datetime="2020-03-29T16:43:35+00:00">2020-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/f6234a21.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（7）——用户管理" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/f6234a21.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/f6234a21.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>6.5k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>对于用户管理，本来应该包含添加用户，删除用户等操作的，但是为了实现简单，添加用户就用注册代替了，所以所谓用户管理，只是实现了用户的删除操作</p>
+<p>为了删除用户的同时保护数据库的完整性和约束，需要进行以下操作</p>
+<ul>
+<li>从<code>User</code>表删除该用户</li>
+<li>将该用户所借阅的所有书籍全部归还</li>
+</ul>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/f6234a21.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/ec62120c.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/ec62120c.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（6）——书籍信息查询实现</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-03-30 00:10:00" itemprop="dateCreated datePublished" datetime="2020-03-30T00:10:00+00:00">2020-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-29 16:43:35" itemprop="dateModified" datetime="2020-03-29T16:43:35+00:00">2020-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/ec62120c.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（6）——书籍信息查询实现" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/ec62120c.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/ec62120c.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>9.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>8 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>从数据库的设计可以看到，在这里我们只需要使用Book表的数据，就可以实现书籍信息的查询了</p>
+<p>在这个功能的实现上，可以说花了我比较大的心思了，主要实现了这些功能：</p>
+<ul>
+<li>动态刷新，也就是说当管理员删除或者添加书籍，用户借阅归还书籍的时候动态刷新这个TableView</li>
+<li>模糊匹配</li>
+<li>按书名，作者，书号，出版社查询</li>
+<li>跳转页，翻页</li>
+</ul>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/ec62120c.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/65cd36fc.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/65cd36fc.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（5）——添加/淘汰书籍对话框设计</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-03-30 00:07:00" itemprop="dateCreated datePublished" datetime="2020-03-30T00:07:00+00:00">2020-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-29 16:43:35" itemprop="dateModified" datetime="2020-03-29T16:43:35+00:00">2020-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/65cd36fc.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（5）——添加/淘汰书籍对话框设计" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/65cd36fc.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/65cd36fc.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>13k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>12 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+
+<h2 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h2><p>在图书管管理系统主页上，我们有添加和淘汰的功能 ，通过按钮弹出对话框进行添加和淘汰书籍，这里我们就来完成一下这两个功能。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/65cd36fc.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/a8b56f4b.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/a8b56f4b.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（4）——管理员主页设计</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-03-30 00:02:00" itemprop="dateCreated datePublished" datetime="2020-03-30T00:02:00+00:00">2020-03-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-29 16:43:35" itemprop="dateModified" datetime="2020-03-29T16:43:35+00:00">2020-03-29</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/a8b56f4b.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（4）——管理员主页设计" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/a8b56f4b.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/a8b56f4b.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>在管理员主页，为了完成初步的功能，即添加书本，淘汰书本，查看库存，我们需要设计以下：</p>
+<ul>
+<li>一个添加书本的Dialog，通过一个button启用</li>
+<li>一个淘汰书本的Dialog，通过一个button启用 </li>
+<li>一个查看库存的Table， 一开始打算用一个button启用的，后来觉得直接放主页也挺好的，所以并没有用button启用（虽然依然放在设计中）</li>
+</ul>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/a8b56f4b.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/98a38c48.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/98a38c48.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（3）——登录页面设计</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-03-29 23:59:00 / 修改时间：16:43:35" itemprop="dateCreated datePublished" datetime="2020-03-29T23:59:00+00:00">2020-03-29</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/98a38c48.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（3）——登录页面设计" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/98a38c48.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/98a38c48.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>4.2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>登录页面的逻辑很简单，如下：</p>
+<ul>
+<li>用户输入学号和密码（安全起见，加上输入检测）</li>
+<li>如果密码错误或者用户名不存在，则给出提示</li>
+<li>如果正确，则进行跳转</li>
+</ul>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/98a38c48.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/72587310.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Chendong Yu">
+      <meta itemprop="description" content="About My Life and Study">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ycdxsb's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/72587310.html" class="post-title-link" itemprop="url">PyQt5搭建图书馆管理系统（2）——注册页面设计</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-03-29 23:50:00 / 修改时间：16:43:35" itemprop="dateCreated datePublished" datetime="2020-03-29T23:50:00+00:00">2020-03-29</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/" itemprop="url" rel="index"><span itemprop="name">PyQt5</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PyQt5/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/72587310.html" class="post-meta-item leancloud_visitors" data-flag-title="PyQt5搭建图书馆管理系统（2）——注册页面设计" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/72587310.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/72587310.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>5.9k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>5 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--toc-->
+
+
+<blockquote>
+<p>我觉得最cd的就是QtDesigner虽然适合快速开发UI，但是我总用不好，只能纯代码来实现界面了。现在大家能看到的一开始的UI设计和一点逻辑，并不包含总体应用的的逻辑体系</p>
+</blockquote>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/72587310.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -306,6 +1435,9 @@
   </div>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
 
 
 
@@ -372,9 +1504,21 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -415,13 +1559,13 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">0k</span>
+    <span title="站点总字数">76k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1 分钟</span>
+    <span title="站点阅读时长">1:10</span>
 </div>
 
         
