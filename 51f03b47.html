@@ -14,12 +14,10 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/lib/pace/pace-theme-center-cercle.min.css">
-  <script src="/lib/pace/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"blog.ycdhub.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"blog.ycdhub.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="PS:由于CSDN太多广告所以弃用了，搬运到了自己的博客 ¶写在前面 这学期的数据库大作业要求是做一个简单的图书馆管理系统，刚好之前看过Qt，就打算用Qt来写了，博客记录一些重要的模块和思路 ¶要求 编写一个图书管理系统，要求具有以下内容：  存储图书信息、采购和淘汰情况、租借情况 实现图书采购、淘汰、租借功能。 实现图书信息、采购和淘汰、库存、和租借情况查询 实现图书的采购、库存、淘汰、租借情">
@@ -328,7 +326,7 @@
 <li>IsAdmin：是否为管理员</li>
 <li>TimesBorrowed：借阅次数</li>
 <li>NumBorrowed：已借书数量<br>
-<img data-src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7q1ougaj30zc02l74i.jpg" alt="Alt text"></li>
+<img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7q1ougaj30zc02l74i.jpg" alt="Alt text"></li>
 </ul>
 <h3><span id="pbook-biao">Book表</span><a href="#pbook-biao" class="header-anchor">#</a></h3>
 <ul>
@@ -342,13 +340,13 @@
 <li>NumCanBorrowed：可借量</li>
 <li>NumBorrowed：被借阅次数</li>
 </ul>
-<p><img data-src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7ri0ls0j313901zdg9.jpg" alt="Alt text"></p>
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7ri0ls0j313901zdg9.jpg" alt="Alt text"></p>
 <h3><span id="puser-book-biao">User_Book表</span><a href="#puser-book-biao" class="header-anchor">#</a></h3>
 <p>分别为学号，书号，借阅时间，归还时间，借阅状态</p>
-<p><img data-src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7rnz07cj30o902o74g.jpg" alt="Alt text"></p>
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7rnz07cj30o902o74g.jpg" alt="Alt text"></p>
 <h3><span id="pbuyordrop-biao">BuyOrDrop表</span><a href="#pbuyordrop-biao" class="header-anchor">#</a></h3>
 <p>分别为书号，添加或淘汰时间，添加还是淘汰，数量<br>
-<img data-src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7q2jlagj30hn03jt8r.jpg" alt="Alt text"></p>
+<img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7q2jlagj30hn03jt8r.jpg" alt="Alt text"></p>
 <h2><span id="pzui-hou-fu-shang-lian-jie">最后附上链接</span><a href="#pzui-hou-fu-shang-lian-jie" class="header-anchor">#</a></h2>
 <p>项目地址：<a href="https://github.com/ycdxsb/LibraryManageDesktopApp" target="_blank" rel="noopener">github仓库链接</a></p>
 
@@ -592,7 +590,6 @@
 
   
   <script src="/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
@@ -662,5 +659,5 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 });
 </script>
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
 </html>

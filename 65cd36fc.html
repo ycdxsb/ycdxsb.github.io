@@ -14,12 +14,10 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/lib/pace/pace-theme-center-cercle.min.css">
-  <script src="/lib/pace/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"blog.ycdhub.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"blog.ycdhub.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="¶分析： 在图书管管理系统主页上，我们有添加和淘汰的功能 ，通过按钮弹出对话框进行添加和淘汰书籍，这里我们就来完成一下这两个功能。">
@@ -317,8 +315,8 @@
 <li>本来不存在，则开始插入数据</li>
 </ul>
 <h3><span id="pshi-xian-xiao-guo">实现效果:</span><a href="#pshi-xian-xiao-guo" class="header-anchor">#</a></h3>
-<p><img data-src="https://tva1.sinaimg.cn/large/00831rSTly1gdb8v90r9pj308b0c1dfs.jpg" alt="这里写图片描述"><br>
-<img data-src="https://tva1.sinaimg.cn/large/00831rSTly1gdb8v9u8t2j308d0c2wek.jpg" alt="这里写图片描述"></p>
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb8v90r9pj308b0c1dfs.jpg" alt="这里写图片描述"><br>
+<img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb8v9u8t2j308d0c2wek.jpg" alt="这里写图片描述"></p>
 <h2><span id="ptao-tai-tu-shu-gong-neng">淘汰图书功能</span><a href="#ptao-tai-tu-shu-gong-neng" class="header-anchor">#</a></h2>
 <h3><span id="pfen-xi">分析</span><a href="#pfen-xi" class="header-anchor">#</a></h3>
 <p>从实现看与添加图书差不多，但是为了方便，我只允许管理员添加书本号，然后自动匹配到书籍信息填充，管理员只需再添加一个淘汰数量就行了</p>
@@ -329,8 +327,8 @@
 <code>dropBookButtonClicked</code>实现点击淘汰的逻辑</p>
 <p>当监测到书号的	<code>QLineEdit</code>被更改时触发<code>bookIdEditChanged</code>，从数据库检查是否存在该书，如果有则添加</p>
 <h3><span id="pshi-xian-xiao-guo">实现效果</span><a href="#pshi-xian-xiao-guo" class="header-anchor">#</a></h3>
-<p><img data-src="https://tva1.sinaimg.cn/large/00831rSTly1gdb8vaosh9j308d0bza9z.jpg" alt="这里写图片描述"><br>
-<img data-src="https://tva1.sinaimg.cn/large/00831rSTly1gdb8v96qxjj308f0c2aa1.jpg" alt="这里写图片描述"></p>
+<p><img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb8vaosh9j308d0bza9z.jpg" alt="这里写图片描述"><br>
+<img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb8v96qxjj308f0c2aa1.jpg" alt="这里写图片描述"></p>
 <h2><span id="pzui-hou-fu-shang-lian-jie">最后附上链接</span><a href="#pzui-hou-fu-shang-lian-jie" class="header-anchor">#</a></h2>
 <p>项目地址：<a href="https://github.com/ycdxsb/LibraryManageDesktopApp" target="_blank" rel="noopener">github仓库链接</a></p>
 
@@ -577,7 +575,6 @@
 
   
   <script src="/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
@@ -647,5 +644,5 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 });
 </script>
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
 </html>
