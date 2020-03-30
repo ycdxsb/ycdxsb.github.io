@@ -42,7 +42,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -77,7 +77,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -99,7 +99,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -142,7 +142,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -176,7 +176,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -213,7 +213,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -259,7 +259,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -288,7 +288,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -314,7 +314,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -344,7 +344,7 @@
 ]]></content>
       <categories>
         <category>PyQt5</category>
-        <category>数据库</category>
+        <category>图书馆管理系统</category>
       </categories>
       <tags>
         <tag>PyQt5</tag>
@@ -403,6 +403,10 @@
 <h3><span id="buyordrop-biao">BuyOrDrop表</span><a href="#buyordrop-biao" class="header-anchor">#</a></h3><p>分别为书号，添加或淘汰时间，添加还是淘汰，数量<br><img src="https://tva1.sinaimg.cn/large/00831rSTly1gdb7q2jlagj30hn03jt8r.jpg" alt="Alt text"></p>
 <h2><span id="zui-hou-fu-shang-lian-jie">最后附上链接</span><a href="#zui-hou-fu-shang-lian-jie" class="header-anchor">#</a></h2><p>项目地址：<a href="https://github.com/ycdxsb/LibraryManageDesktopApp" target="_blank" rel="noopener">github仓库链接</a></p>
 ]]></content>
+      <categories>
+        <category>PyQt5</category>
+        <category>图书馆管理系统</category>
+      </categories>
       <tags>
         <tag>PyQt5</tag>
         <tag>数据库</tag>
