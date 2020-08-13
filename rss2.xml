@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>食兔人的博客</title>
+    <link>https://blog.ycdxsb.cn/</link>
+    
+    <image>
+      <url>https://blog.ycdxsb.cn/icon.png</url>
+      <title>食兔人的博客</title>
+      <link>https://blog.ycdxsb.cn/</link>
+    </image>
+    
+    <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>About My Life and Study</description>
+    <pubDate>Thu, 06 Aug 2020 08:41:36 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Knapsack Problem</title>
+      <link>https://blog.ycdxsb.cn/c65d2bd5.html</link>
+      <guid>https://blog.ycdxsb.cn/c65d2bd5.html</guid>
+      <pubDate>Thu, 06 Aug 2020 16:39:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;最近经常碰到背包问题，所以稍微整理一下&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#问题描述&quot;&gt;¶&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;一般我们碰到的都是0 1背包问题，如下，我们已有数字$a_1,a_2…a_n$，从中给它们分别赋予0或者1的权重$w_i$，使得最终的和为$W$，即&lt;/p&gt;&lt;p&gt;$$\sum_1^n w_ia_i = W$$&lt;/p&gt;&lt;p&gt;而在这类问题中，当$n$较大时就是一个$2^n$复杂度的NP问题&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/c65d2bd5.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>记录CTF中的RSA非常规题解</title>
+      <link>https://blog.ycdxsb.cn/1cfe8689.html</link>
+      <guid>https://blog.ycdxsb.cn/1cfe8689.html</guid>
+      <pubDate>Wed, 05 Aug 2020 14:33:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;如果你熟悉去年所有CTF比赛中的web题解，那么比赛中一半以上的题都能轻松解决 —— posix小姐姐&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/1cfe8689.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CTF中的RSA基本套路(4)</title>
+      <link>https://blog.ycdxsb.cn/2decc525.html</link>
+      <guid>https://blog.ycdxsb.cn/2decc525.html</guid>
+      <pubDate>Mon, 03 Aug 2020 10:33:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;第四部分是相关消息的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/2decc525.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CTF中的RSA基本套路(3)</title>
+      <link>https://blog.ycdxsb.cn/62ad53e2.html</link>
+      <guid>https://blog.ycdxsb.cn/62ad53e2.html</guid>
+      <pubDate>Thu, 30 Jul 2020 17:08:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;第三部分是基本的Coppersmith相关内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/62ad53e2.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CTF中的RSA基本套路(2)</title>
+      <link>https://blog.ycdxsb.cn/7bb662a3.html</link>
+      <guid>https://blog.ycdxsb.cn/7bb662a3.html</guid>
+      <pubDate>Sat, 11 Jul 2020 17:08:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;第二部分主要是一些Oracle相关的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/7bb662a3.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>跟着AngrCTF学Angr(3)</title>
+      <link>https://blog.ycdxsb.cn/f7e7b79c.html</link>
+      <guid>https://blog.ycdxsb.cn/f7e7b79c.html</guid>
+      <pubDate>Sun, 05 Jul 2020 16:46:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;第三部分是一些漏洞自动化利用相关的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;:&lt;br&gt;&lt;code&gt;angr == 8.20.1.7&lt;/code&gt;&lt;br&gt;二进制文件和脚本存储于&lt;code&gt;https://github.com/ycdxsb/Challenges/tree/master/angr_ctf&lt;/code&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/re/">re</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/re/">re</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/f7e7b79c.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CTF中的RSA基本套路(1)</title>
+      <link>https://blog.ycdxsb.cn/509b3160.html</link>
+      <guid>https://blog.ycdxsb.cn/509b3160.html</guid>
+      <pubDate>Sat, 04 Jul 2020 21:08:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;碰到东西老是忘老是忘，要用的时候总是得自己去搜索模板浪费时间，所以只能整理整理一下套路和解题模板才能活下去这样子&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/509b3160.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>obfuscation &amp;&amp; deobfuscation(1)</title>
+      <link>https://blog.ycdxsb.cn/cc7a6108.html</link>
+      <guid>https://blog.ycdxsb.cn/cc7a6108.html</guid>
+      <pubDate>Sun, 14 Jun 2020 21:15:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;http://xn--deflat-917ig9cu2n9jev84j.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;之前只会用deflat.py&lt;/a&gt;，最近正好学了angr，而且看了下代码也只有三百行不到，所以打算对应着康康原理和代码&lt;/p&gt;&lt;p&gt;第一部分简单讲一下工具使用和obfuscation原理&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/re/">re</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/re/">re</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/cc7a6108.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>面向任务的对话系统</title>
+      <link>https://blog.ycdxsb.cn/599bbf87.html</link>
+      <guid>https://blog.ycdxsb.cn/599bbf87.html</guid>
+      <pubDate>Thu, 11 Jun 2020 14:05:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;​ 在对话系统领域中，面向任务的对话系统是其中很重要的一个分支，不同于开放域的对话系统，任务型对话系统侧重于完成一个领域或者几个领域内的特定任务，例如天气查询、餐厅预订等。面向任务的对话系统能够分为pipeline方法和end-to-end方法两类，并依赖相关领域内的知识库。本文首先介绍pipeline和end-to-end两类方法，然后简单介绍在面向任务的对话系统研究中使用的数据集，最后结合近三年中面向任务的对话系统领域内的研究成果，梳理当前存在的主要挑战。&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/AI/">AI</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/AI/NLP/">NLP</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/AI/">AI</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/NLP/">NLP</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/599bbf87.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>跟着AngrCTF学Angr(2)</title>
+      <link>https://blog.ycdxsb.cn/eefc86dd.html</link>
+      <guid>https://blog.ycdxsb.cn/eefc86dd.html</guid>
+      <pubDate>Wed, 10 Jun 2020 17:03:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;第二部分主要是hook相关的内容的学习&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;:&lt;/p&gt;&lt;p&gt;&lt;code&gt;angr == 8.20.1.7&lt;/code&gt;&lt;/p&gt;&lt;p&gt;二进制文件和脚本存储于&lt;code&gt;https://github.com/ycdxsb/Challenges/tree/master/angr_ctf&lt;/code&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/re/">re</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/re/">re</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/eefc86dd.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>跟着AngrCTF学Angr(1)</title>
+      <link>https://blog.ycdxsb.cn/c5d1d51e.html</link>
+      <guid>https://blog.ycdxsb.cn/c5d1d51e.html</guid>
+      <pubDate>Sat, 06 Jun 2020 23:22:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;最近想跟着angr_ctf学习了一下符号执行（用来在做逆向的时候偷懒），还是挺有收获的&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;:&lt;/p&gt;&lt;p&gt;&lt;code&gt;angr == 8.20.1.7&lt;/code&gt;&lt;/p&gt;&lt;p&gt;二进制文件和脚本存储于&lt;code&gt;https://github.com/ycdxsb/Challenges/tree/master/angr_ctf&lt;/code&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/re/">re</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/re/">re</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/c5d1d51e.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>pin/perf在CTF逆向中的应用</title>
+      <link>https://blog.ycdxsb.cn/c61763eb.html</link>
+      <guid>https://blog.ycdxsb.cn/c61763eb.html</guid>
+      <pubDate>Thu, 04 Jun 2020 20:22:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;在”深度优先“的学习过程中发现了pin这个工具，之前对于平坦化的程序只会用deflat脚本去平坦化，去不了就只能苦逼的硬调了，直到发现了pin这个工具，打开了侧信道的大门，然后也在搜学习资料的时候搜到了比较轻量的perf工具&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/re/">re</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/re/">re</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/c61763eb.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Data-Oriented Programming: On the Expressiveness of Non-Control Data Attacks(S&amp;P 2016)</title>
+      <link>https://blog.ycdxsb.cn/c30e365e.html</link>
+      <guid>https://blog.ycdxsb.cn/c30e365e.html</guid>
+      <pubDate>Tue, 26 May 2020 16:23:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;根据控制流的攻击我们知道有ROP和JOP，分别利用包含ret和jmp的Gadgets进行攻击，劫持控制流。&lt;/p&gt;&lt;p&gt;非控制数据攻击通过攻击程序内存，达到信息泄露或者权限提升等目的。文中提出了DOP攻击，利用程序中的Gadgets，构造任意x86程序的非控制数据攻击，并且这种攻击是图灵完备的。&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/others/">others</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/others/">others</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/c30e365e.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>BadBluetooth: Breaking Android Security Mechanisms via Malicious Bluetooth Peripherals(NDSS 2019)</title>
+      <link>https://blog.ycdxsb.cn/93934686.html</link>
+      <guid>https://blog.ycdxsb.cn/93934686.html</guid>
+      <pubDate>Tue, 19 May 2020 15:55:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;本文针对Android 4.2后google开发的蓝牙栈 BlueDroid中存在的粗粒度权限管理问题，提出了并实现了在多版本中的攻击&lt;strong&gt;BadBluetooth&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;通过将蓝牙设备伪装为键盘，网络接入点和耳机，同时配合Android 恶意app发起静默配对，最终实现控制手机截屏偷取用户隐私数据，劫持通信流量，甚至在锁屏状态下拨打电话等攻击。&lt;/p&gt;&lt;p&gt;最后，作者在AOSP项目上实现了对应的防御框架&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/mobile-security/">mobile_security</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/mobile-security/">mobile security</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/93934686.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>LEOPARD: Identifying Vulnerable Code for Vulnerability Assessment through Program Metrics(ICSE 2019)</title>
+      <link>https://blog.ycdxsb.cn/eda43453.html</link>
+      <guid>https://blog.ycdxsb.cn/eda43453.html</guid>
+      <pubDate>Mon, 18 May 2020 21:25:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;识别代码中的脆弱点漏洞评估的重要步骤，当前主要的两种方法为：基于度量和基于模式。前者基于机器学习，后者依赖先验知识。本文提出并实现了一个通用、轻量且具有可扩展性的基于程序指标识别漏洞函数的框架 &lt;strong&gt;LEOPARD&lt;/strong&gt;，这个框架不需要任何漏洞的先验知识就能识别脆弱点。第一步，通过复杂的程序指标将目标应用的函数分类；第二步，对每个分类中的函数进行排序，并将排位靠前的函数作为漏洞函数。在实际应用中，LEOPARD将20%的函数中识别出了74%的漏洞函数，从PHP，r2等应用中找到了22个新bug，其中8个是新漏洞。&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/eda43453.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>FUZZIFICATION: Anti-Fuzzing Techniques(USENIX 2019)</title>
+      <link>https://blog.ycdxsb.cn/14b4d99.html</link>
+      <guid>https://blog.ycdxsb.cn/14b4d99.html</guid>
+      <pubDate>Sun, 17 May 2020 23:27:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;fuzz作为一种自动化技术，在安全人员手中能够用来发现漏洞，但同时也让hacker能够通过fuzz寻找0day进行攻击。&lt;/p&gt;&lt;p&gt;为了解决这个问题，本文提出了FUZZIFICATION技术。在实际应用中，对外发布使用FUZZIFICATION处理过的二进制文件，提高hacker fuzz的难度和成本，而对内，由于安全人员拥有未处理过的二进制，使得安全人员能够在hacker fuzz出漏洞前更早的发现漏洞并进行修补。&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/fuzz/">fuzz</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/fuzz/">fuzz</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/14b4d99.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>B2SFinder——Detecting Open-Source Software Reuse in COTS Software(ASE 2019)</title>
+      <link>https://blog.ycdxsb.cn/157adce2.html</link>
+      <guid>https://blog.ycdxsb.cn/157adce2.html</guid>
+      <pubDate>Mon, 11 May 2020 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;B2SFinder-Detecting-Open-Source-Software-Reuse-in-COTS-Software&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#B2SFinder-Detecting-Open-Source-Software-Reuse-in-COTS-Software&quot;&gt;¶&lt;/a&gt;B2SFinder: Detecting Open-Source Software Reuse in COTS Software&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;B2SFinder 主要是为了解决闭源二进制软件中对复用开源组件检测的问题，由于复用了开源组件，当开源组件发现存在漏洞时，复用它的二进制软件也会存在漏洞，即OSS复用漏洞。&lt;/p&gt;&lt;p&gt;PS：我挂了个n作&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;Abstract&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Abstract&quot;&gt;¶&lt;/a&gt;Abstract&lt;/h2&gt;&lt;p&gt;虽然此前也有一些工作致力于研究二进制和源代码的匹配方法，并能进行大规模的分析，但他们只支持一些简单的特征。在他们的研究中只能近似的衡量OSS复用，忽略了项目中的代码结构。&lt;/p&gt;&lt;p&gt;为了解决这个问题，B2SFinder通过对二进制文件和源代码中的7种特征进行提取，并对7种特征使用三种匹配方法和两种重要性加权方法，计算匹配分数。通过这种方法，我们对1000个流行的二进制软件中的21991个二进制文件和2189个开源库的复用进行了评估。平均每个二进制文件耗时53.85秒。我们也讨论了如何使用B2SFinder检测OSS复用漏洞。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/157adce2.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>源码二进制比对工具Pigaios</title>
+      <link>https://blog.ycdxsb.cn/dc413e13.html</link>
+      <guid>https://blog.ycdxsb.cn/dc413e13.html</guid>
+      <pubDate>Fri, 01 May 2020 15:19:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;Pigaios原理简介&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Pigaios原理简介&quot;&gt;¶&lt;/a&gt;Pigaios原理简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;目的：&lt;/strong&gt; 为了解决符号表问题&lt;/p&gt;&lt;p&gt;&lt;strong&gt;两种方案：&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;编译源码，使用 Diaphora (or BinDiff) 导出符号表，导入符号表缺失样本&lt;/li&gt;&lt;li&gt;从源码题符号表，导入符号表缺失样本&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;第二种方法好处在于不需要完全编译，因为对于旧的源码，有的很难编译成功&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/tools/">tools</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/tools/">tools</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/dc413e13.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>栈溢出与ROP分析与利用</title>
+      <link>https://blog.ycdxsb.cn/1fd25de4.html</link>
+      <guid>https://blog.ycdxsb.cn/1fd25de4.html</guid>
+      <pubDate>Wed, 22 Apr 2020 19:47:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;基础知识&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基础知识&quot;&gt;¶&lt;/a&gt;基础知识&lt;/h2&gt;&lt;h3 id=&quot;栈溢出与ROP&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#栈溢出与ROP&quot;&gt;¶&lt;/a&gt;栈溢出与ROP&lt;/h3&gt;&lt;p&gt;栈溢出指的是程序向栈中某个变量中写入的字节数超过了这个变量本身所申请的字节数，因而导致与其相邻的栈中的变量的值被改变。栈溢出漏洞就是由于栈溢出而导致的漏洞。在程序执行过程中，常使用栈帧记录程序执行过程中的状态，在栈帧中保存着返回地址，当利用栈溢出漏洞修改函数返回地址跳转到非预期地址执行时，就产生了ROP攻击，又称返回导向编程。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/">pwn</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/">stack_overflow</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/pwn/">pwn</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/stack-overflow/">stack overflow</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/1fd25de4.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Beyond Free Riding-Quality of Indicators for Assessing Participation in Information Sharing for Threat Intelligence</title>
+      <link>https://blog.ycdxsb.cn/7160fe1c.html</link>
+      <guid>https://blog.ycdxsb.cn/7160fe1c.html</guid>
+      <pubDate>Fri, 17 Apr 2020 21:31:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;依然是态势感知作业需求&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;Abstract&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Abstract&quot;&gt;¶&lt;/a&gt;Abstract&lt;/h2&gt;&lt;p&gt;paper针对在威胁情报共享体系中，某些参与者为了获得共享情报，却又不给出实质性的贡献的情况（所谓搭便车），提出指标质量QoI来评估参与者的贡献，并引入了以下度量：正确性、相关性、实用性和唯一性。&lt;/p&gt;&lt;p&gt;采用基准方法定义了质量度量，然后获得了一个参考数据集，并利用机器学习文献中的工具进行质量评估。将这些结果与仅将信息量视为贡献度量的模型进行了比较，揭示了各种有趣的观察结果，发现低质量的参与者。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/security-situation-awareness/">security_situation_awareness</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security-situation-awareness/">security situation awareness</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/7160fe1c.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
