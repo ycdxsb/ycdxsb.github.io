@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-08-14T12:27:33.286Z</updated>
+  <updated>2020-08-15T12:15:07.039Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection(AAAI 2020)</title>
+    <link href="https://blog.ycdxsb.cn/99505d2e.html"/>
+    <id>https://blog.ycdxsb.cn/99505d2e.html</id>
+    <published>2020-08-15T20:06:00.000Z</published>
+    <updated>2020-08-15T12:15:07.039Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;​ 二进制代码相似性检测：在没有源代码的情况下检测相似的二进制函数。传统的方法一般使用图匹配算法进行检测，但传统方法准确率低且复杂度高。深度学习的发展为这一领域提供的新的方法，根据控制流图生成CFG，并使用GNN计算图嵌入，既高效又准确。本文提出Semantic-Aware Neural Networks ，取得了不错的成果&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
+    
+    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
+    
+    <category term="automatic_analyse" scheme="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/"/>
+    
+    
+    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
+    
+    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
+    
+    <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2020.08.12 迪士尼的天很蓝，城堡很美</title>
     <link href="https://blog.ycdxsb.cn/62acab4f.html"/>
     <id>https://blog.ycdxsb.cn/62acab4f.html</id>
     <published>2020-08-12T00:00:00.000Z</published>
-    <updated>2020-08-14T12:27:33.286Z</updated>
+    <updated>2020-08-14T12:27:46.254Z</updated>
     
     
     <summary type="html">请输入密码查看.若无反应.请使用firefox浏览器</summary>
@@ -63,7 +90,7 @@
     <link href="https://blog.ycdxsb.cn/1cfe8689.html"/>
     <id>https://blog.ycdxsb.cn/1cfe8689.html</id>
     <published>2020-08-05T14:33:00.000Z</published>
-    <updated>2020-08-05T06:38:41.899Z</updated>
+    <updated>2020-08-05T06:38:42.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;如果你熟悉去年所有CTF比赛中的web题解，那么比赛中一半以上的题都能轻松解决 —— posix小姐姐&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -86,7 +113,7 @@
     <link href="https://blog.ycdxsb.cn/2decc525.html"/>
     <id>https://blog.ycdxsb.cn/2decc525.html</id>
     <published>2020-08-03T10:33:00.000Z</published>
-    <updated>2020-08-03T06:02:50.997Z</updated>
+    <updated>2020-08-03T06:02:50.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;第四部分是相关消息的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</summary>
@@ -109,7 +136,7 @@
     <link href="https://blog.ycdxsb.cn/62ad53e2.html"/>
     <id>https://blog.ycdxsb.cn/62ad53e2.html</id>
     <published>2020-07-30T17:08:00.000Z</published>
-    <updated>2020-08-03T05:57:57.167Z</updated>
+    <updated>2020-08-03T05:57:58.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;第三部分是基本的Coppersmith相关内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</summary>
@@ -204,7 +231,7 @@
     <updated>2020-07-11T21:34:12.000Z</updated>
     
     
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;http://xn--deflat-917ig9cu2n9jev84j.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;之前只会用deflat.py&lt;/a&gt;，最近正好学了angr，而且看了下代码也只有三百行不到，所以打算对应着康康原理和代码&lt;/p&gt;&lt;p&gt;第一部分简单讲一下工具使用和obfuscation原理&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;http://xn--deflat-917ig9cu2n9jev84j.py&quot;&gt;之前只会用deflat.py&lt;/a&gt;，最近正好学了angr，而且看了下代码也只有三百行不到，所以打算对应着康康原理和代码&lt;/p&gt;&lt;p&gt;第一部分简单讲一下工具使用和obfuscation原理&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
@@ -462,33 +489,6 @@
     
     
     <category term="tools" scheme="https://blog.ycdxsb.cn/tags/tools/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>栈溢出与ROP分析与利用</title>
-    <link href="https://blog.ycdxsb.cn/1fd25de4.html"/>
-    <id>https://blog.ycdxsb.cn/1fd25de4.html</id>
-    <published>2020-04-22T19:47:00.000Z</published>
-    <updated>2020-07-11T21:32:38.000Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;基础知识&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基础知识&quot;&gt;¶&lt;/a&gt;基础知识&lt;/h2&gt;&lt;h3 id=&quot;栈溢出与ROP&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#栈溢出与ROP&quot;&gt;¶&lt;/a&gt;栈溢出与ROP&lt;/h3&gt;&lt;p&gt;栈溢出指的是程序向栈中某个变量中写入的字节数超过了这个变量本身所申请的字节数，因而导致与其相邻的栈中的变量的值被改变。栈溢出漏洞就是由于栈溢出而导致的漏洞。在程序执行过程中，常使用栈帧记录程序执行过程中的状态，在栈帧中保存着返回地址，当利用栈溢出漏洞修改函数返回地址跳转到非预期地址执行时，就产生了ROP攻击，又称返回导向编程。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="pwn" scheme="https://blog.ycdxsb.cn/categories/CTF/pwn/"/>
-    
-    <category term="stack_overflow" scheme="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="pwn" scheme="https://blog.ycdxsb.cn/tags/pwn/"/>
-    
-    <category term="stack overflow" scheme="https://blog.ycdxsb.cn/tags/stack-overflow/"/>
     
   </entry>
   

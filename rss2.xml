@@ -15,8 +15,37 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 14 Aug 2020 12:27:33 GMT</pubDate>
+    <pubDate>Sat, 15 Aug 2020 12:15:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection(AAAI 2020)</title>
+      <link>https://blog.ycdxsb.cn/99505d2e.html</link>
+      <guid>https://blog.ycdxsb.cn/99505d2e.html</guid>
+      <pubDate>Sat, 15 Aug 2020 20:06:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;​ 二进制代码相似性检测：在没有源代码的情况下检测相似的二进制函数。传统的方法一般使用图匹配算法进行检测，但传统方法准确率低且复杂度高。深度学习的发展为这一领域提供的新的方法，根据控制流图生成CFG，并使用GNN计算图嵌入，既高效又准确。本文提出Semantic-Aware Neural Networks ，取得了不错的成果&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/99505d2e.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2020.08.12 迪士尼的天很蓝，城堡很美</title>
@@ -220,7 +249,7 @@
       <guid>https://blog.ycdxsb.cn/cc7a6108.html</guid>
       <pubDate>Sun, 14 Jun 2020 21:15:00 GMT</pubDate>
       
-      <description>&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;http://xn--deflat-917ig9cu2n9jev84j.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;之前只会用deflat.py&lt;/a&gt;，最近正好学了angr，而且看了下代码也只有三百行不到，所以打算对应着康康原理和代码&lt;/p&gt;&lt;p&gt;第一部分简单讲一下工具使用和obfuscation原理&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;http://xn--deflat-917ig9cu2n9jev84j.py&quot;&gt;之前只会用deflat.py&lt;/a&gt;，最近正好学了angr，而且看了下代码也只有三百行不到，所以打算对应着康康原理和代码&lt;/p&gt;&lt;p&gt;第一部分简单讲一下工具使用和obfuscation原理&lt;/p&gt;&lt;/blockquote&gt;</description>
       
       
       
@@ -502,35 +531,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/dc413e13.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>栈溢出与ROP分析与利用</title>
-      <link>https://blog.ycdxsb.cn/1fd25de4.html</link>
-      <guid>https://blog.ycdxsb.cn/1fd25de4.html</guid>
-      <pubDate>Wed, 22 Apr 2020 19:47:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;基础知识&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基础知识&quot;&gt;¶&lt;/a&gt;基础知识&lt;/h2&gt;&lt;h3 id=&quot;栈溢出与ROP&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#栈溢出与ROP&quot;&gt;¶&lt;/a&gt;栈溢出与ROP&lt;/h3&gt;&lt;p&gt;栈溢出指的是程序向栈中某个变量中写入的字节数超过了这个变量本身所申请的字节数，因而导致与其相邻的栈中的变量的值被改变。栈溢出漏洞就是由于栈溢出而导致的漏洞。在程序执行过程中，常使用栈帧记录程序执行过程中的状态，在栈帧中保存着返回地址，当利用栈溢出漏洞修改函数返回地址跳转到非预期地址执行时，就产生了ROP攻击，又称返回导向编程。&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/">pwn</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/">stack_overflow</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/pwn/">pwn</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/stack-overflow/">stack overflow</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/1fd25de4.html#disqus_thread</comments>
       
     </item>
     
