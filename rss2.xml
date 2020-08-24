@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Sat, 15 Aug 2020 12:15:07 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2020 02:56:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>强网杯2020 部分writeup</title>
+      <link>https://blog.ycdxsb.cn/40c735f5.html</link>
+      <guid>https://blog.ycdxsb.cn/40c735f5.html</guid>
+      <pubDate>Mon, 24 Aug 2020 10:43:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;简单记录一下做出的几道题目，以后还是科研为主科研为主&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/writeup/">writeup</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/writeup/">writeup</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/40c735f5.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection(AAAI 2020)</title>
@@ -510,27 +535,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/157adce2.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>源码二进制比对工具Pigaios</title>
-      <link>https://blog.ycdxsb.cn/dc413e13.html</link>
-      <guid>https://blog.ycdxsb.cn/dc413e13.html</guid>
-      <pubDate>Fri, 01 May 2020 15:19:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;Pigaios原理简介&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Pigaios原理简介&quot;&gt;¶&lt;/a&gt;Pigaios原理简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;目的：&lt;/strong&gt; 为了解决符号表问题&lt;/p&gt;&lt;p&gt;&lt;strong&gt;两种方案：&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;编译源码，使用 Diaphora (or BinDiff) 导出符号表，导入符号表缺失样本&lt;/li&gt;&lt;li&gt;从源码题符号表，导入符号表缺失样本&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;第二种方法好处在于不需要完全编译，因为对于旧的源码，有的很难编译成功&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/tools/">tools</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/tools/">tools</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/dc413e13.html#disqus_thread</comments>
       
     </item>
     

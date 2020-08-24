@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-08-15T12:15:07.039Z</updated>
+  <updated>2020-08-24T02:56:15.063Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>强网杯2020 部分writeup</title>
+    <link href="https://blog.ycdxsb.cn/40c735f5.html"/>
+    <id>https://blog.ycdxsb.cn/40c735f5.html</id>
+    <published>2020-08-24T10:43:00.000Z</published>
+    <updated>2020-08-24T02:56:15.063Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;简单记录一下做出的几道题目，以后还是科研为主科研为主&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
+    
+    <category term="writeup" scheme="https://blog.ycdxsb.cn/categories/CTF/writeup/"/>
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
+    
+    <category term="writeup" scheme="https://blog.ycdxsb.cn/tags/writeup/"/>
+    
+  </entry>
   
   <entry>
     <title>Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection(AAAI 2020)</title>
@@ -470,25 +493,6 @@
     <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
     
     <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>源码二进制比对工具Pigaios</title>
-    <link href="https://blog.ycdxsb.cn/dc413e13.html"/>
-    <id>https://blog.ycdxsb.cn/dc413e13.html</id>
-    <published>2020-05-01T15:19:00.000Z</published>
-    <updated>2020-07-11T21:49:46.000Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;Pigaios原理简介&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Pigaios原理简介&quot;&gt;¶&lt;/a&gt;Pigaios原理简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;目的：&lt;/strong&gt; 为了解决符号表问题&lt;/p&gt;&lt;p&gt;&lt;strong&gt;两种方案：&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;编译源码，使用 Diaphora (or BinDiff) 导出符号表，导入符号表缺失样本&lt;/li&gt;&lt;li&gt;从源码题符号表，导入符号表缺失样本&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;第二种方法好处在于不需要完全编译，因为对于旧的源码，有的很难编译成功&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="tools" scheme="https://blog.ycdxsb.cn/categories/tools/"/>
-    
-    
-    <category term="tools" scheme="https://blog.ycdxsb.cn/tags/tools/"/>
     
   </entry>
   
