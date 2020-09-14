@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 28 Aug 2020 08:04:58 GMT</pubDate>
+    <pubDate>Mon, 14 Sep 2020 02:02:14 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>5space 线下决赛部分 writeup</title>
+      <link>https://blog.ycdxsb.cn/762edb82.html</link>
+      <guid>https://blog.ycdxsb.cn/762edb82.html</guid>
+      <pubDate>Mon, 14 Sep 2020 10:43:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;所以爱会消失对不对&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/writeup/">writeup</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/writeup/">writeup</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/762edb82.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Sys: a Static/Symbolic Tool for Finding Good Bugs in Good (Browser) Code(USENIX 2020)</title>
@@ -506,35 +531,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/eda43453.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>FUZZIFICATION: Anti-Fuzzing Techniques(USENIX 2019)</title>
-      <link>https://blog.ycdxsb.cn/14b4d99.html</link>
-      <guid>https://blog.ycdxsb.cn/14b4d99.html</guid>
-      <pubDate>Sun, 17 May 2020 23:27:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;fuzz作为一种自动化技术，在安全人员手中能够用来发现漏洞，但同时也让hacker能够通过fuzz寻找0day进行攻击。&lt;/p&gt;&lt;p&gt;为了解决这个问题，本文提出了FUZZIFICATION技术。在实际应用中，对外发布使用FUZZIFICATION处理过的二进制文件，提高hacker fuzz的难度和成本，而对内，由于安全人员拥有未处理过的二进制，使得安全人员能够在hacker fuzz出漏洞前更早的发现漏洞并进行修补。&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/security/fuzz/">fuzz</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/fuzz/">fuzz</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/14b4d99.html#disqus_thread</comments>
       
     </item>
     
