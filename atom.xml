@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-09-15T05:03:02.000Z</updated>
+  <updated>2020-09-18T05:01:41.418Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CVE-2020-1938</title>
+    <link href="https://blog.ycdxsb.cn/f95006f9.html"/>
+    <id>https://blog.ycdxsb.cn/f95006f9.html</id>
+    <published>2020-09-18T12:58:00.000Z</published>
+    <updated>2020-09-18T05:01:41.418Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本信息&quot;&gt;¶&lt;/a&gt;基本信息&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
+    
+    <category term="CVE" scheme="https://blog.ycdxsb.cn/categories/CTF/CVE/"/>
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
+    
+    <category term="CVE" scheme="https://blog.ycdxsb.cn/tags/CVE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CVE-2017-12617</title>
+    <link href="https://blog.ycdxsb.cn/e50797f2.html"/>
+    <id>https://blog.ycdxsb.cn/e50797f2.html</id>
+    <published>2020-09-18T12:22:00.000Z</published>
+    <updated>2020-09-18T04:58:24.550Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本信息&quot;&gt;¶&lt;/a&gt;基本信息&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default servlet to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
+    
+    <category term="CVE" scheme="https://blog.ycdxsb.cn/categories/CTF/CVE/"/>
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
+    
+    <category term="CVE" scheme="https://blog.ycdxsb.cn/tags/CVE/"/>
+    
+  </entry>
   
   <entry>
     <title>5space 线下决赛部分 writeup</title>
@@ -435,60 +481,6 @@
     <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
     
     <category term="others" scheme="https://blog.ycdxsb.cn/tags/others/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BadBluetooth: Breaking Android Security Mechanisms via Malicious Bluetooth Peripherals(NDSS 2019)</title>
-    <link href="https://blog.ycdxsb.cn/93934686.html"/>
-    <id>https://blog.ycdxsb.cn/93934686.html</id>
-    <published>2020-05-19T15:55:00.000Z</published>
-    <updated>2020-07-11T21:42:40.000Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;本文针对Android 4.2后google开发的蓝牙栈 BlueDroid中存在的粗粒度权限管理问题，提出了并实现了在多版本中的攻击&lt;strong&gt;BadBluetooth&lt;/strong&gt;。&lt;/p&gt;&lt;p&gt;通过将蓝牙设备伪装为键盘，网络接入点和耳机，同时配合Android 恶意app发起静默配对，最终实现控制手机截屏偷取用户隐私数据，劫持通信流量，甚至在锁屏状态下拨打电话等攻击。&lt;/p&gt;&lt;p&gt;最后，作者在AOSP项目上实现了对应的防御框架&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
-    
-    <category term="mobile_security" scheme="https://blog.ycdxsb.cn/categories/papers/security/mobile-security/"/>
-    
-    
-    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
-    
-    <category term="mobile security" scheme="https://blog.ycdxsb.cn/tags/mobile-security/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LEOPARD: Identifying Vulnerable Code for Vulnerability Assessment through Program Metrics(ICSE 2019)</title>
-    <link href="https://blog.ycdxsb.cn/eda43453.html"/>
-    <id>https://blog.ycdxsb.cn/eda43453.html</id>
-    <published>2020-05-18T21:25:00.000Z</published>
-    <updated>2020-07-11T21:38:42.000Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;识别代码中的脆弱点漏洞评估的重要步骤，当前主要的两种方法为：基于度量和基于模式。前者基于机器学习，后者依赖先验知识。本文提出并实现了一个通用、轻量且具有可扩展性的基于程序指标识别漏洞函数的框架 &lt;strong&gt;LEOPARD&lt;/strong&gt;，这个框架不需要任何漏洞的先验知识就能识别脆弱点。第一步，通过复杂的程序指标将目标应用的函数分类；第二步，对每个分类中的函数进行排序，并将排位靠前的函数作为漏洞函数。在实际应用中，LEOPARD将20%的函数中识别出了74%的漏洞函数，从PHP，r2等应用中找到了22个新bug，其中8个是新漏洞。&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
-    
-    <category term="automatic_analyse" scheme="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/"/>
-    
-    
-    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
-    
-    <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
     
   </entry>
   
