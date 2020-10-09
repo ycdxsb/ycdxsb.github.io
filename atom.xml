@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-09-18T05:01:41.418Z</updated>
+  <updated>2020-10-09T13:09:32.106Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bypass Miller Rabin Test</title>
+    <link href="https://blog.ycdxsb.cn/b7ee330c.html"/>
+    <id>https://blog.ycdxsb.cn/b7ee330c.html</id>
+    <published>2020-10-09T21:09:00.000Z</published>
+    <updated>2020-10-09T13:09:32.106Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;在一道密码学题目中碰到的问题，需要绕过Miller-Rabin素性测试，稍微记录一下&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
+    
+    <category term="crypto" scheme="https://blog.ycdxsb.cn/categories/CTF/crypto/"/>
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
+    
+    <category term="crypto" scheme="https://blog.ycdxsb.cn/tags/crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>CVE-2020-1938</title>
@@ -454,33 +477,6 @@
     <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
     
     <category term="re" scheme="https://blog.ycdxsb.cn/tags/re/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Data-Oriented Programming: On the Expressiveness of Non-Control Data Attacks(S&amp;P 2016)</title>
-    <link href="https://blog.ycdxsb.cn/c30e365e.html"/>
-    <id>https://blog.ycdxsb.cn/c30e365e.html</id>
-    <published>2020-05-26T16:23:00.000Z</published>
-    <updated>2020-07-11T21:44:12.000Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;根据控制流的攻击我们知道有ROP和JOP，分别利用包含ret和jmp的Gadgets进行攻击，劫持控制流。&lt;/p&gt;&lt;p&gt;非控制数据攻击通过攻击程序内存，达到信息泄露或者权限提升等目的。文中提出了DOP攻击，利用程序中的Gadgets，构造任意x86程序的非控制数据攻击，并且这种攻击是图灵完备的。&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
-    
-    <category term="others" scheme="https://blog.ycdxsb.cn/categories/papers/security/others/"/>
-    
-    
-    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
-    
-    <category term="others" scheme="https://blog.ycdxsb.cn/tags/others/"/>
     
   </entry>
   
