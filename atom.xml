@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-10-09T13:09:32.106Z</updated>
+  <updated>2020-10-28T02:31:07.509Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CVE-2020-9484</title>
+    <link href="https://blog.ycdxsb.cn/de7e28a5.html"/>
+    <id>https://blog.ycdxsb.cn/de7e28a5.html</id>
+    <published>2020-10-28T12:22:00.000Z</published>
+    <updated>2020-10-28T02:31:07.509Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.5.0 to 8.5.54 and 7.0.0 to 7.0.103 if a) an attacker is able to control the contents and name of a file on the server; and b) the server is configured to use the PersistenceManager with a FileStore; and c) the PersistenceManager is configured with sessionAttributeValueClassNameFilter=“null” (the default unless a SecurityManager is used) or a sufficiently lax filter to allow the attacker provided object to be deserialized; and d) the attacker knows the relative file path from the storage location used by FileStore to the file the attacker has control over; then, using a specifically crafted request, the attacker will be able to trigger remote code execution via deserialization of the file under their control. Note that all of conditions a) to d) must be true for the attack to succeed.&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
+    
+    <category term="CVE" scheme="https://blog.ycdxsb.cn/categories/CTF/CVE/"/>
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
+    
+    <category term="CVE" scheme="https://blog.ycdxsb.cn/tags/CVE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Bypass Miller Rabin Test</title>
     <link href="https://blog.ycdxsb.cn/b7ee330c.html"/>
     <id>https://blog.ycdxsb.cn/b7ee330c.html</id>
     <published>2020-10-09T21:09:00.000Z</published>
-    <updated>2020-10-09T13:09:32.106Z</updated>
+    <updated>2020-10-09T13:10:12.410Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;在一道密码学题目中碰到的问题，需要绕过Miller-Rabin素性测试，稍微记录一下&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -443,29 +466,6 @@
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;最近想跟着angr_ctf学习了一下符号执行（用来在做逆向的时候偷懒），还是挺有收获的&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;:&lt;/p&gt;&lt;p&gt;&lt;code&gt;angr == 8.20.1.7&lt;/code&gt;&lt;/p&gt;&lt;p&gt;二进制文件和脚本存储于&lt;code&gt;https://github.com/ycdxsb/Challenges/tree/master/angr_ctf&lt;/code&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="re" scheme="https://blog.ycdxsb.cn/categories/CTF/re/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="re" scheme="https://blog.ycdxsb.cn/tags/re/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pin/perf在CTF逆向中的应用</title>
-    <link href="https://blog.ycdxsb.cn/c61763eb.html"/>
-    <id>https://blog.ycdxsb.cn/c61763eb.html</id>
-    <published>2020-06-04T20:22:00.000Z</published>
-    <updated>2020-07-11T20:51:02.000Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;在”深度优先“的学习过程中发现了pin这个工具，之前对于平坦化的程序只会用deflat脚本去平坦化，去不了就只能苦逼的硬调了，直到发现了pin这个工具，打开了侧信道的大门，然后也在搜学习资料的时候搜到了比较轻量的perf工具&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     

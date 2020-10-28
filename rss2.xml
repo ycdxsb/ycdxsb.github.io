@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 09 Oct 2020 13:09:32 GMT</pubDate>
+    <pubDate>Wed, 28 Oct 2020 02:31:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>CVE-2020-9484</title>
+      <link>https://blog.ycdxsb.cn/de7e28a5.html</link>
+      <guid>https://blog.ycdxsb.cn/de7e28a5.html</guid>
+      <pubDate>Wed, 28 Oct 2020 12:22:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.5.0 to 8.5.54 and 7.0.0 to 7.0.103 if a) an attacker is able to control the contents and name of a file on the server; and b) the server is configured to use the PersistenceManager with a FileStore; and c) the PersistenceManager is configured with sessionAttributeValueClassNameFilter=“null” (the default unless a SecurityManager is used) or a sufficiently lax filter to allow the attacker provided object to be deserialized; and d) the attacker knows the relative file path from the storage location used by FileStore to the file the attacker has control over; then, using a specifically crafted request, the attacker will be able to trigger remote code execution via deserialization of the file under their control. Note that all of conditions a) to d) must be true for the attack to succeed.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/de7e28a5.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Bypass Miller Rabin Test</title>
@@ -494,31 +519,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/c5d1d51e.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>pin/perf在CTF逆向中的应用</title>
-      <link>https://blog.ycdxsb.cn/c61763eb.html</link>
-      <guid>https://blog.ycdxsb.cn/c61763eb.html</guid>
-      <pubDate>Thu, 04 Jun 2020 20:22:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;在”深度优先“的学习过程中发现了pin这个工具，之前对于平坦化的程序只会用deflat脚本去平坦化，去不了就只能苦逼的硬调了，直到发现了pin这个工具，打开了侧信道的大门，然后也在搜学习资料的时候搜到了比较轻量的perf工具&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/re/">re</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/re/">re</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/c61763eb.html#disqus_thread</comments>
       
     </item>
     
