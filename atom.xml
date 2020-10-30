@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-10-30T03:27:25.025Z</updated>
+  <updated>2020-10-30T03:31:28.157Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -20,17 +20,11 @@
     <title>CVE-2018-1336和CVE-2018-8034</title>
     <link href="https://blog.ycdxsb.cn/9dc656c7.html"/>
     <id>https://blog.ycdxsb.cn/9dc656c7.html</id>
-    <published>2020-10-30T03:27:25.025Z</published>
-    <updated>2020-10-30T03:27:25.025Z</updated>
+    <published>2020-10-30T03:31:28.157Z</published>
+    <updated>2020-10-30T03:31:28.157Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2&gt;&lt;span id=&quot;pcve-2018-1336&quot;&gt;CVE-2018-1336&lt;/span&gt;&lt;a href=&quot;#pcve-2018-1336&quot; class=&quot;header-anchor&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;CVE-2018-1336&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#CVE-2018-1336&quot;&gt;¶&lt;/a&gt;CVE-2018-1336&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper handing of overflow in the UTF-8 decoder with supplementary characters can lead to an infinite loop in the decoder causing a Denial of Service. Versions Affected: Apache Tomcat 9.0.0.M9 to 9.0.7, 8.5.0 to 8.5.30, 8.0.0.RC1 to 8.0.51, and 7.0.28 to 7.0.86.&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     

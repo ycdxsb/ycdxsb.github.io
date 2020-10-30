@@ -15,22 +15,16 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 30 Oct 2020 03:27:25 GMT</pubDate>
+    <pubDate>Fri, 30 Oct 2020 03:31:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>CVE-2018-1336和CVE-2018-8034</title>
       <link>https://blog.ycdxsb.cn/9dc656c7.html</link>
       <guid>https://blog.ycdxsb.cn/9dc656c7.html</guid>
-      <pubDate>Fri, 30 Oct 2020 03:27:25 GMT</pubDate>
+      <pubDate>Fri, 30 Oct 2020 03:31:28 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;h2&gt;&lt;span id=&quot;pcve-2018-1336&quot;&gt;CVE-2018-1336&lt;/span&gt;&lt;a href=&quot;#pcve-2018-1336&quot; class=&quot;header-anchor&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper</description>
-          
-        
+      <description>&lt;h2 id=&quot;CVE-2018-1336&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#CVE-2018-1336&quot;&gt;¶&lt;/a&gt;CVE-2018-1336&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper handing of overflow in the UTF-8 decoder with supplementary characters can lead to an infinite loop in the decoder causing a Denial of Service. Versions Affected: Apache Tomcat 9.0.0.M9 to 9.0.7, 8.5.0 to 8.5.30, 8.0.0.RC1 to 8.0.51, and 7.0.28 to 7.0.86.&lt;/p&gt;&lt;/blockquote&gt;</description>
       
       
       
