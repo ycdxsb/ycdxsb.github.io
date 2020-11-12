@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-10-30T03:31:28.157Z</updated>
+  <updated>2020-11-12T09:38:19.066Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CodeQL之CWE-252</title>
+    <link href="https://blog.ycdxsb.cn/3f2f6cef.html"/>
+    <id>https://blog.ycdxsb.cn/3f2f6cef.html</id>
+    <published>2020-11-12T09:38:19.066Z</published>
+    <updated>2020-11-12T09:38:19.066Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;CWE-252: Unchecked Return Value&lt;/p&gt;&lt;p&gt;The software does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;顾名思义，&lt;code&gt;Unchecked Return Value&lt;/code&gt;，就是在实际代码中缺少了对返回值的检查，在实际代码中，对错误返回值的检查尤为重要，因为需要进入到相应的错误处理环节中去，否则会影响程序的正常运行。比如我们常见的对&lt;code&gt;malloc&lt;/code&gt;返回值的检查等等，和&lt;code&gt;CWE-252&lt;/code&gt;相关的还有&lt;code&gt;CWE-754&lt;/code&gt;、&lt;code&gt;CWE-273&lt;/code&gt;、&lt;code&gt;CWE-476&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
+    
+  </entry>
   
   <entry>
     <title>CVE-2018-1336和CVE-2018-8034</title>
@@ -454,29 +477,6 @@
     <category term="AI" scheme="https://blog.ycdxsb.cn/tags/AI/"/>
     
     <category term="NLP" scheme="https://blog.ycdxsb.cn/tags/NLP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>跟着AngrCTF学Angr(2)</title>
-    <link href="https://blog.ycdxsb.cn/eefc86dd.html"/>
-    <id>https://blog.ycdxsb.cn/eefc86dd.html</id>
-    <published>2020-06-10T09:03:00.000Z</published>
-    <updated>2020-10-28T03:11:27.661Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;第二部分主要是hook相关的内容的学习&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;:&lt;/p&gt;&lt;p&gt;&lt;code&gt;angr == 8.20.1.7&lt;/code&gt;&lt;/p&gt;&lt;p&gt;二进制文件和脚本存储于&lt;code&gt;https://github.com/ycdxsb/Challenges/tree/master/angr_ctf&lt;/code&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="re" scheme="https://blog.ycdxsb.cn/categories/CTF/re/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="re" scheme="https://blog.ycdxsb.cn/tags/re/"/>
     
   </entry>
   

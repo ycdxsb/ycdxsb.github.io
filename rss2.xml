@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 30 Oct 2020 03:31:28 GMT</pubDate>
+    <pubDate>Thu, 12 Nov 2020 09:38:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>CodeQL之CWE-252</title>
+      <link>https://blog.ycdxsb.cn/3f2f6cef.html</link>
+      <guid>https://blog.ycdxsb.cn/3f2f6cef.html</guid>
+      <pubDate>Thu, 12 Nov 2020 09:38:19 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;CWE-252: Unchecked Return Value&lt;/p&gt;&lt;p&gt;The software does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;顾名思义，&lt;code&gt;Unchecked Return Value&lt;/code&gt;，就是在实际代码中缺少了对返回值的检查，在实际代码中，对错误返回值的检查尤为重要，因为需要进入到相应的错误处理环节中去，否则会影响程序的正常运行。比如我们常见的对&lt;code&gt;malloc&lt;/code&gt;返回值的检查等等，和&lt;code&gt;CWE-252&lt;/code&gt;相关的还有&lt;code&gt;CWE-754&lt;/code&gt;、&lt;code&gt;CWE-273&lt;/code&gt;、&lt;code&gt;CWE-476&lt;/code&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/3f2f6cef.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>CVE-2018-1336和CVE-2018-8034</title>
@@ -494,31 +519,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/599bbf87.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>跟着AngrCTF学Angr(2)</title>
-      <link>https://blog.ycdxsb.cn/eefc86dd.html</link>
-      <guid>https://blog.ycdxsb.cn/eefc86dd.html</guid>
-      <pubDate>Wed, 10 Jun 2020 09:03:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;第二部分主要是hook相关的内容的学习&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;:&lt;/p&gt;&lt;p&gt;&lt;code&gt;angr == 8.20.1.7&lt;/code&gt;&lt;/p&gt;&lt;p&gt;二进制文件和脚本存储于&lt;code&gt;https://github.com/ycdxsb/Challenges/tree/master/angr_ctf&lt;/code&gt;&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/re/">re</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/re/">re</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/eefc86dd.html#disqus_thread</comments>
       
     </item>
     
