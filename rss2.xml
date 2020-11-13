@@ -15,14 +15,14 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Thu, 12 Nov 2020 09:44:26 GMT</pubDate>
+    <pubDate>Fri, 13 Nov 2020 02:26:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>CodeQL之CWE-252</title>
       <link>https://blog.ycdxsb.cn/3f2f6cef.html</link>
       <guid>https://blog.ycdxsb.cn/3f2f6cef.html</guid>
-      <pubDate>Thu, 12 Nov 2020 09:44:26 GMT</pubDate>
+      <pubDate>Fri, 13 Nov 2020 02:26:33 GMT</pubDate>
       
       <description>&lt;blockquote&gt;&lt;p&gt;CWE-252: Unchecked Return Value&lt;/p&gt;&lt;p&gt;The software does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;顾名思义，&lt;code&gt;Unchecked Return Value&lt;/code&gt;，就是在实际代码中缺少了对返回值的检查，在实际代码中，对错误返回值的检查尤为重要，因为需要进入到相应的错误处理环节中去，否则会影响程序的正常运行。比如我们常见的对&lt;code&gt;malloc&lt;/code&gt;返回值的检查等等，和&lt;code&gt;CWE-252&lt;/code&gt;相关的还有&lt;code&gt;CWE-754&lt;/code&gt;、&lt;code&gt;CWE-273&lt;/code&gt;、&lt;code&gt;CWE-476&lt;/code&gt;&lt;/p&gt;</description>
       
