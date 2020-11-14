@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 13 Nov 2020 02:26:33 GMT</pubDate>
+    <pubDate>Sat, 14 Nov 2020 01:41:29 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>CodeQL之CWE-401(1)</title>
+      <link>https://blog.ycdxsb.cn/81db1c47.html</link>
+      <guid>https://blog.ycdxsb.cn/81db1c47.html</guid>
+      <pubDate>Sat, 14 Nov 2020 01:41:29 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/81db1c47.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>CodeQL之CWE-252</title>
@@ -494,31 +519,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/cc7a6108.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>面向任务的对话系统</title>
-      <link>https://blog.ycdxsb.cn/599bbf87.html</link>
-      <guid>https://blog.ycdxsb.cn/599bbf87.html</guid>
-      <pubDate>Thu, 11 Jun 2020 06:05:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;​ 在对话系统领域中，面向任务的对话系统是其中很重要的一个分支，不同于开放域的对话系统，任务型对话系统侧重于完成一个领域或者几个领域内的特定任务，例如天气查询、餐厅预订等。面向任务的对话系统能够分为pipeline方法和end-to-end方法两类，并依赖相关领域内的知识库。本文首先介绍pipeline和end-to-end两类方法，然后简单介绍在面向任务的对话系统研究中使用的数据集，最后结合近三年中面向任务的对话系统领域内的研究成果，梳理当前存在的主要挑战。&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/AI/">AI</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/AI/NLP/">NLP</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/AI/">AI</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/NLP/">NLP</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/599bbf87.html#disqus_thread</comments>
       
     </item>
     

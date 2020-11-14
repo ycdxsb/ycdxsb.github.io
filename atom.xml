@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-11-13T02:26:33.102Z</updated>
+  <updated>2020-11-14T01:41:29.037Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CodeQL之CWE-401(1)</title>
+    <link href="https://blog.ycdxsb.cn/81db1c47.html"/>
+    <id>https://blog.ycdxsb.cn/81db1c47.html</id>
+    <published>2020-11-14T01:41:29.037Z</published>
+    <updated>2020-11-14T01:41:29.037Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
+    
+  </entry>
   
   <entry>
     <title>CodeQL之CWE-252</title>
@@ -454,29 +477,6 @@
     <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
     
     <category term="re" scheme="https://blog.ycdxsb.cn/tags/re/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>面向任务的对话系统</title>
-    <link href="https://blog.ycdxsb.cn/599bbf87.html"/>
-    <id>https://blog.ycdxsb.cn/599bbf87.html</id>
-    <published>2020-06-11T06:05:00.000Z</published>
-    <updated>2020-10-28T03:11:27.649Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;​ 在对话系统领域中，面向任务的对话系统是其中很重要的一个分支，不同于开放域的对话系统，任务型对话系统侧重于完成一个领域或者几个领域内的特定任务，例如天气查询、餐厅预订等。面向任务的对话系统能够分为pipeline方法和end-to-end方法两类，并依赖相关领域内的知识库。本文首先介绍pipeline和end-to-end两类方法，然后简单介绍在面向任务的对话系统研究中使用的数据集，最后结合近三年中面向任务的对话系统领域内的研究成果，梳理当前存在的主要挑战。&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="AI" scheme="https://blog.ycdxsb.cn/categories/AI/"/>
-    
-    <category term="NLP" scheme="https://blog.ycdxsb.cn/categories/AI/NLP/"/>
-    
-    
-    <category term="AI" scheme="https://blog.ycdxsb.cn/tags/AI/"/>
-    
-    <category term="NLP" scheme="https://blog.ycdxsb.cn/tags/NLP/"/>
     
   </entry>
   
