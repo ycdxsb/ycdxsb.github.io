@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-11-14T01:41:29.037Z</updated>
+  <updated>2020-11-16T07:36:38.234Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CodeQL之CWE-401(2)</title>
+    <link href="https://blog.ycdxsb.cn/aaf64f84.html"/>
+    <id>https://blog.ycdxsb.cn/aaf64f84.html</id>
+    <published>2020-11-16T07:36:38.234Z</published>
+    <updated>2020-11-16T07:36:38.234Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;在写第二类&lt;code&gt;CWE-401&lt;/code&gt;的查询脚本前，我们需要补充一些东西、在能找到的&lt;code&gt;codeql&lt;/code&gt;文档里，大部分都只强推了它的&lt;code&gt;DataFlow&lt;/code&gt;模块，而在写第二类查询脚本时，需要用到它的可达性分析模块&lt;code&gt;import semmle.code.cpp.controlflow.StackVariableReachability&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CodeQL之CWE-401(1)</title>
     <link href="https://blog.ycdxsb.cn/81db1c47.html"/>
     <id>https://blog.ycdxsb.cn/81db1c47.html</id>
     <published>2020-11-14T01:41:29.037Z</published>
-    <updated>2020-11-14T01:41:29.037Z</updated>
+    <updated>2020-11-14T01:41:36.545Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -454,29 +477,6 @@
     <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
     
     <category term="crypto" scheme="https://blog.ycdxsb.cn/tags/crypto/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>obfuscation &amp;&amp; deobfuscation(1)</title>
-    <link href="https://blog.ycdxsb.cn/cc7a6108.html"/>
-    <id>https://blog.ycdxsb.cn/cc7a6108.html</id>
-    <published>2020-06-14T13:15:00.000Z</published>
-    <updated>2020-10-28T03:11:27.665Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;http://xn--deflat-917ig9cu2n9jev84j.py&quot;&gt;之前只会用deflat.py&lt;/a&gt;，最近正好学了angr，而且看了下代码也只有三百行不到，所以打算对应着康康原理和代码&lt;/p&gt;&lt;p&gt;第一部分简单讲一下工具使用和obfuscation原理&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="re" scheme="https://blog.ycdxsb.cn/categories/CTF/re/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="re" scheme="https://blog.ycdxsb.cn/tags/re/"/>
     
   </entry>
   
