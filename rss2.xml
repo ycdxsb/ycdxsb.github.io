@@ -15,16 +15,16 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Mon, 16 Nov 2020 07:40:23 GMT</pubDate>
+    <pubDate>Tue, 17 Nov 2020 01:34:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>CodeQL之CWE-401(2)</title>
       <link>https://blog.ycdxsb.cn/aaf64f84.html</link>
       <guid>https://blog.ycdxsb.cn/aaf64f84.html</guid>
-      <pubDate>Mon, 16 Nov 2020 07:40:23 GMT</pubDate>
+      <pubDate>Tue, 17 Nov 2020 01:34:21 GMT</pubDate>
       
-      <description>&lt;blockquote&gt;&lt;p&gt;在写第二类&lt;code&gt;CWE-401&lt;/code&gt;的查询脚本前，我们需要补充一些东西、在能找到的&lt;code&gt;codeql&lt;/code&gt;文档里，大部分都只强推了它的&lt;code&gt;DataFlow&lt;/code&gt;模块，而在写第二类查询脚本时，需要用到它的可达性分析模块&lt;code&gt;import semmle.code.cpp.controlflow.StackVariableReachability&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <description>请输入密码查看.若无反应.请使用firefox浏览器</description>
       
       
       
@@ -47,9 +47,9 @@
       <title>CodeQL之CWE-401(1)</title>
       <link>https://blog.ycdxsb.cn/81db1c47.html</link>
       <guid>https://blog.ycdxsb.cn/81db1c47.html</guid>
-      <pubDate>Sat, 14 Nov 2020 01:41:29 GMT</pubDate>
+      <pubDate>Tue, 17 Nov 2020 01:33:56 GMT</pubDate>
       
-      <description>&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <description>请输入密码查看.若无反应.请使用firefox浏览器</description>
       
       
       
