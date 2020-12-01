@@ -15,22 +15,16 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Tue, 01 Dec 2020 12:25:47 GMT</pubDate>
+    <pubDate>Tue, 01 Dec 2020 12:28:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>Similarity of Binaries Across Optimization Levels and Obfuscation(ESORICS 2020)</title>
       <link>https://blog.ycdxsb.cn/930679b9.html</link>
       <guid>https://blog.ycdxsb.cn/930679b9.html</guid>
-      <pubDate>Tue, 01 Dec 2020 12:25:47 GMT</pubDate>
+      <pubDate>Tue, 01 Dec 2020 12:28:46 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;&lt;p&gt;现有的二进制相似度检测工作并没有很好的解决编译优化和混淆带来的影响，所以作者提出了&lt;code&gt;IMOPT&lt;/code&gt;来重新优化代码，用于提高代码相似性检测的准确率。&lt;/p&gt;&lt;p&gt;该方法在测试集上和原本的Asm2vec相比，将精度提高了22.7%，并</description>
-          
-        
+      <description>&lt;blockquote&gt;&lt;p&gt;现有的二进制相似度检测工作并没有很好的解决编译优化和混淆带来的影响，所以作者提出了&lt;code&gt;IMOPT&lt;/code&gt;来重新优化代码，用于提高代码相似性检测的准确率。&lt;/p&gt;&lt;p&gt;该方法在测试集上和原本的Asm2vec相比，将精度提高了22.7%，并且可以缓解ollvm混淆带来的影响&lt;/p&gt;&lt;/blockquote&gt;</description>
       
       
       
