@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-11-17T06:37:14.383Z</updated>
+  <updated>2020-12-01T12:25:47.661Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Similarity of Binaries Across Optimization Levels and Obfuscation(ESORICS 2020)</title>
+    <link href="https://blog.ycdxsb.cn/930679b9.html"/>
+    <id>https://blog.ycdxsb.cn/930679b9.html</id>
+    <published>2020-12-01T12:25:47.661Z</published>
+    <updated>2020-12-01T12:25:47.661Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;现有的二进制相似度检测工作并没有很好的解决编译优化和混淆带来的影响，所以作者提出了&lt;code&gt;IMOPT&lt;/code&gt;来重新优化代码，用于提高代码相似性检测的准确率。&lt;/p&gt;&lt;p&gt;该方法在测试集上和原本的Asm2vec相比，将精度提高了22.7%，并</summary>
+        
+      
+    
+    
+    
+    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
+    
+    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
+    
+    <category term="automatic_analyse" scheme="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/"/>
+    
+    
+    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
+    
+    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
+    
+    <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CodeQL之CWE-401(3)</title>
     <link href="https://blog.ycdxsb.cn/b3ed7ec5.html"/>
     <id>https://blog.ycdxsb.cn/b3ed7ec5.html</id>
     <published>2020-11-17T06:37:14.383Z</published>
-    <updated>2020-11-17T06:37:14.383Z</updated>
+    <updated>2020-11-17T06:37:22.811Z</updated>
     
     
     <summary type="html">请输入密码查看.若无反应.请使用firefox浏览器</summary>
@@ -454,29 +487,6 @@
     <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
     
     <category term="crypto" scheme="https://blog.ycdxsb.cn/tags/crypto/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>跟着AngrCTF学Angr(3)</title>
-    <link href="https://blog.ycdxsb.cn/f7e7b79c.html"/>
-    <id>https://blog.ycdxsb.cn/f7e7b79c.html</id>
-    <published>2020-07-05T08:46:00.000Z</published>
-    <updated>2020-10-28T03:11:27.661Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;第三部分是一些漏洞自动化利用相关的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;:&lt;br&gt;&lt;code&gt;angr == 8.20.1.7&lt;/code&gt;&lt;br&gt;二进制文件和脚本存储于&lt;code&gt;https://github.com/ycdxsb/Challenges/tree/master/angr_ctf&lt;/code&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="re" scheme="https://blog.ycdxsb.cn/categories/CTF/re/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="re" scheme="https://blog.ycdxsb.cn/tags/re/"/>
     
   </entry>
   
