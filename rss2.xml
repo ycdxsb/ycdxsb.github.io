@@ -15,8 +15,25 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Tue, 01 Dec 2020 12:28:46 GMT</pubDate>
+    <pubDate>Mon, 07 Dec 2020 05:23:32 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>research/linux_kernel/linux切换内核版本</title>
+      <link>https://blog.ycdxsb.cn/fa711cc5.html</link>
+      <guid>https://blog.ycdxsb.cn/fa711cc5.html</guid>
+      <pubDate>Mon, 07 Dec 2020 05:23:32 GMT</pubDate>
+      
+      <description>&lt;p&gt;title: linux切换内核版本&lt;br&gt;tags:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;research&lt;/li&gt;&lt;li&gt;linux kernel&lt;br&gt;author: ycdxsb&lt;br&gt;categories:&lt;/li&gt;&lt;li&gt;research&lt;/li&gt;&lt;li&gt;linux kernel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;内核文件包含：&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux-image-版本号：内核映像文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-headers-版本号：内核头文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-image-extra-版本号：内核扩展文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
+      
+      
+      
+      
+      
+      
+      <comments>https://blog.ycdxsb.cn/fa711cc5.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Similarity of Binaries Across Optimization Levels and Obfuscation(ESORICS 2020)</title>
@@ -498,31 +515,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/62ad53e2.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CTF中的RSA基本套路(2)</title>
-      <link>https://blog.ycdxsb.cn/7bb662a3.html</link>
-      <guid>https://blog.ycdxsb.cn/7bb662a3.html</guid>
-      <pubDate>Sat, 11 Jul 2020 09:08:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;第二部分主要是一些Oracle相关的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/7bb662a3.html#disqus_thread</comments>
       
     </item>
     

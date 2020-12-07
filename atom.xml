@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-12-01T12:28:46.725Z</updated>
+  <updated>2020-12-07T05:23:32.437Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>research/linux_kernel/linux切换内核版本</title>
+    <link href="https://blog.ycdxsb.cn/fa711cc5.html"/>
+    <id>https://blog.ycdxsb.cn/fa711cc5.html</id>
+    <published>2020-12-07T05:23:32.437Z</published>
+    <updated>2020-12-07T05:23:32.437Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;title: linux切换内核版本&lt;br&gt;tags:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;research&lt;/li&gt;&lt;li&gt;linux kernel&lt;br&gt;author: ycdxsb&lt;br&gt;categories:&lt;/li&gt;&lt;li&gt;research&lt;/li&gt;&lt;li&gt;linux kernel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;内核文件包含：&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux-image-版本号：内核映像文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-headers-版本号：内核头文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-image-extra-版本号：内核扩展文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Similarity of Binaries Across Optimization Levels and Obfuscation(ESORICS 2020)</title>
@@ -447,29 +462,6 @@
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;第三部分是基本的Coppersmith相关内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="crypto" scheme="https://blog.ycdxsb.cn/categories/CTF/crypto/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="crypto" scheme="https://blog.ycdxsb.cn/tags/crypto/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CTF中的RSA基本套路(2)</title>
-    <link href="https://blog.ycdxsb.cn/7bb662a3.html"/>
-    <id>https://blog.ycdxsb.cn/7bb662a3.html</id>
-    <published>2020-07-11T09:08:00.000Z</published>
-    <updated>2020-10-28T03:11:27.653Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;第二部分主要是一些Oracle相关的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</summary>
     
     
     
