@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-12-07T05:23:32.437Z</updated>
+  <updated>2020-12-07T05:25:36.281Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,17 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>research/linux_kernel/linux切换内核版本</title>
-    <link href="https://blog.ycdxsb.cn/fa711cc5.html"/>
-    <id>https://blog.ycdxsb.cn/fa711cc5.html</id>
-    <published>2020-12-07T05:23:32.437Z</published>
-    <updated>2020-12-07T05:23:32.437Z</updated>
+    <title>linux切换内核版本</title>
+    <link href="https://blog.ycdxsb.cn/a453e6a.html"/>
+    <id>https://blog.ycdxsb.cn/a453e6a.html</id>
+    <published>2020-12-07T05:25:36.281Z</published>
+    <updated>2020-12-07T05:25:36.281Z</updated>
     
     
-    <summary type="html">&lt;p&gt;title: linux切换内核版本&lt;br&gt;tags:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;research&lt;/li&gt;&lt;li&gt;linux kernel&lt;br&gt;author: ycdxsb&lt;br&gt;categories:&lt;/li&gt;&lt;li&gt;research&lt;/li&gt;&lt;li&gt;linux kernel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;内核文件包含：&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux-image-版本号：内核映像文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-headers-版本号：内核头文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-image-extra-版本号：内核扩展文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    <summary type="html">&lt;p&gt;内核文件包含：&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux-image-版本号：内核映像文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-headers-版本号：内核头文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-image-extra-版本号：内核扩展文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="linux kernel" scheme="https://blog.ycdxsb.cn/categories/research/linux-kernel/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="linux kernel" scheme="https://blog.ycdxsb.cn/tags/linux-kernel/"/>
     
   </entry>
   
