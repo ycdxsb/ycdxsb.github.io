@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-12-24T02:48:27.384Z</updated>
+  <updated>2020-12-24T02:50:34.740Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -20,17 +20,11 @@
     <title>Linux 提权</title>
     <link href="https://blog.ycdxsb.cn/f3ed21e4.html"/>
     <id>https://blog.ycdxsb.cn/f3ed21e4.html</id>
-    <published>2020-12-24T02:48:27.384Z</published>
-    <updated>2020-12-24T02:48:27.384Z</updated>
+    <published>2020-12-24T02:50:34.740Z</published>
+    <updated>2020-12-24T02:50:34.740Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;h2&gt;&lt;span id=&quot;xin-xi-sou-ji&quot;&gt;信息搜集&lt;/span&gt;&lt;a href=&quot;#xin-xi-sou-ji&quot; class=&quot;header-anchor&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;span</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;信息搜集&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#信息搜集&quot;&gt;¶&lt;/a&gt;信息搜集&lt;/h2&gt;</summary>
     
     
     
@@ -50,7 +44,7 @@
     <link href="https://blog.ycdxsb.cn/a453e6a.html"/>
     <id>https://blog.ycdxsb.cn/a453e6a.html</id>
     <published>2020-12-07T05:25:36.281Z</published>
-    <updated>2020-12-07T05:25:43.809Z</updated>
+    <updated>2020-12-24T02:48:45.280Z</updated>
     
     
     <summary type="html">&lt;p&gt;内核文件包含：&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux-image-版本号：内核映像文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-headers-版本号：内核头文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-image-extra-版本号：内核扩展文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
