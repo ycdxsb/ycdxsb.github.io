@@ -15,8 +15,39 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Mon, 07 Dec 2020 05:25:36 GMT</pubDate>
+    <pubDate>Thu, 24 Dec 2020 02:48:27 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Linux 提权</title>
+      <link>https://blog.ycdxsb.cn/f3ed21e4.html</link>
+      <guid>https://blog.ycdxsb.cn/f3ed21e4.html</guid>
+      <pubDate>Thu, 24 Dec 2020 02:48:27 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;h2&gt;&lt;span id=&quot;xin-xi-sou-ji&quot;&gt;信息搜集&lt;/span&gt;&lt;a href=&quot;#xin-xi-sou-ji&quot; class=&quot;header-anchor&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;span</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pentest/">pentest</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/pentest/">pentest</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/f3ed21e4.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>linux切换内核版本</title>
@@ -31,7 +62,7 @@
       
       <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
       
-      <category domain="https://blog.ycdxsb.cn/categories/research/linux-kernel/">linux kernel</category>
+      <category domain="https://blog.ycdxsb.cn/categories/research/linux-kernel/">linux_kernel</category>
       
       
       <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
@@ -498,31 +529,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/2decc525.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CTF中的RSA基本套路(3)</title>
-      <link>https://blog.ycdxsb.cn/62ad53e2.html</link>
-      <guid>https://blog.ycdxsb.cn/62ad53e2.html</guid>
-      <pubDate>Thu, 30 Jul 2020 09:08:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;第三部分是基本的Coppersmith相关内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/62ad53e2.html#disqus_thread</comments>
       
     </item>
     
