@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Thu, 24 Dec 2020 02:50:34 GMT</pubDate>
+    <pubDate>Thu, 31 Dec 2020 08:13:27 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>CodeQL之CWE-401(4)</title>
+      <link>https://blog.ycdxsb.cn/fcace802.html</link>
+      <guid>https://blog.ycdxsb.cn/fcace802.html</guid>
+      <pubDate>Thu, 31 Dec 2020 08:13:27 GMT</pubDate>
+      
+      <description>请输入密码查看.若无反应.请使用firefox浏览器</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/fcace802.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Linux 提权</title>
@@ -498,31 +523,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/1cfe8689.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CTF中的RSA基本套路(4)</title>
-      <link>https://blog.ycdxsb.cn/2decc525.html</link>
-      <guid>https://blog.ycdxsb.cn/2decc525.html</guid>
-      <pubDate>Mon, 03 Aug 2020 02:33:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;第四部分是相关消息的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/2decc525.html#disqus_thread</comments>
       
     </item>
     

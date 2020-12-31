@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-12-24T02:50:34.740Z</updated>
+  <updated>2020-12-31T08:13:27.007Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CodeQL之CWE-401(4)</title>
+    <link href="https://blog.ycdxsb.cn/fcace802.html"/>
+    <id>https://blog.ycdxsb.cn/fcace802.html</id>
+    <published>2020-12-31T08:13:27.007Z</published>
+    <updated>2020-12-31T08:13:27.007Z</updated>
+    
+    
+    <summary type="html">请输入密码查看.若无反应.请使用firefox浏览器</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux 提权</title>
@@ -447,29 +470,6 @@
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;如果你熟悉去年所有CTF比赛中的web题解，那么比赛中一半以上的题都能轻松解决 —— posix小姐姐&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="crypto" scheme="https://blog.ycdxsb.cn/categories/CTF/crypto/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="crypto" scheme="https://blog.ycdxsb.cn/tags/crypto/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CTF中的RSA基本套路(4)</title>
-    <link href="https://blog.ycdxsb.cn/2decc525.html"/>
-    <id>https://blog.ycdxsb.cn/2decc525.html</id>
-    <published>2020-08-03T02:33:00.000Z</published>
-    <updated>2020-10-28T03:11:27.653Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;第四部分是相关消息的内容&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;依赖库：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;gmpy2&lt;/li&gt;&lt;li&gt;pycrypto&lt;/li&gt;&lt;li&gt;pwntools&lt;/li&gt;&lt;li&gt;sage&lt;/li&gt;&lt;/ul&gt;</summary>
     
     
     
