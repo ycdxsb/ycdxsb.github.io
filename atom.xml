@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2020-12-31T08:13:27.007Z</updated>
+  <updated>2021-01-05T10:59:50.988Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -20,11 +20,80 @@
     <title>CodeQL之CWE-401(4)</title>
     <link href="https://blog.ycdxsb.cn/fcace802.html"/>
     <id>https://blog.ycdxsb.cn/fcace802.html</id>
-    <published>2020-12-31T08:13:27.007Z</published>
-    <updated>2020-12-31T08:13:27.007Z</updated>
+    <published>2021-01-05T10:59:50.988Z</published>
+    <updated>2021-01-05T10:59:50.988Z</updated>
     
     
-    <summary type="html">请输入密码查看.若无反应.请使用firefox浏览器</summary>
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;之前我们简要的将CWE-401分为了两类：第一类为(过程内)不存在一条路径，将已分配的内存进行了释放，而在写脚本时，我们并没有解决参数传递导致的误报&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CodeQL之CWE-401(3)</title>
+    <link href="https://blog.ycdxsb.cn/b3ed7ec5.html"/>
+    <id>https://blog.ycdxsb.cn/b3ed7ec5.html</id>
+    <published>2021-01-05T10:59:43.804Z</published>
+    <updated>2021-01-05T10:59:43.804Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;在第一部分中，我们将&lt;code&gt;CWE-401&lt;/code&gt;简单分为两类，第一类是对于分配的内存，不存在路径对它进行了释放，第二类是有的路径释放了，而有的路径忘了释放，现在我们对第二类进行解决&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CodeQL之CWE-401(2)</title>
+    <link href="https://blog.ycdxsb.cn/aaf64f84.html"/>
+    <id>https://blog.ycdxsb.cn/aaf64f84.html</id>
+    <published>2021-01-05T10:59:34.996Z</published>
+    <updated>2021-01-05T10:59:34.996Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;在写第二类&lt;code&gt;CWE-401&lt;/code&gt;的查询脚本前，我们需要补充一些东西、在能找到的&lt;code&gt;codeql&lt;/code&gt;文档里，大部分都只强推了它的&lt;code&gt;DataFlow&lt;/code&gt;模块，而在写第二类查询脚本时，需要用到它的可达性分析模块&lt;code&gt;import semmle.code.cpp.controlflow.StackVariableReachability&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CodeQL之CWE-401(1)</title>
+    <link href="https://blog.ycdxsb.cn/81db1c47.html"/>
+    <id>https://blog.ycdxsb.cn/81db1c47.html</id>
+    <published>2021-01-05T10:59:27.168Z</published>
+    <updated>2021-01-05T10:59:27.168Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
@@ -109,75 +178,6 @@
     <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
     
     <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CodeQL之CWE-401(3)</title>
-    <link href="https://blog.ycdxsb.cn/b3ed7ec5.html"/>
-    <id>https://blog.ycdxsb.cn/b3ed7ec5.html</id>
-    <published>2020-11-17T06:37:14.383Z</published>
-    <updated>2020-11-17T06:37:22.811Z</updated>
-    
-    
-    <summary type="html">请输入密码查看.若无反应.请使用firefox浏览器</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CodeQL之CWE-401(2)</title>
-    <link href="https://blog.ycdxsb.cn/aaf64f84.html"/>
-    <id>https://blog.ycdxsb.cn/aaf64f84.html</id>
-    <published>2020-11-17T01:34:21.616Z</published>
-    <updated>2020-11-17T01:34:21.616Z</updated>
-    
-    
-    <summary type="html">请输入密码查看.若无反应.请使用firefox浏览器</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CodeQL之CWE-401(1)</title>
-    <link href="https://blog.ycdxsb.cn/81db1c47.html"/>
-    <id>https://blog.ycdxsb.cn/81db1c47.html</id>
-    <published>2020-11-17T01:33:56.088Z</published>
-    <updated>2020-11-17T01:33:56.088Z</updated>
-    
-    
-    <summary type="html">请输入密码查看.若无反应.请使用firefox浏览器</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
     
   </entry>
   
