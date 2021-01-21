@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 08 Jan 2021 03:06:01 GMT</pubDate>
+    <pubDate>Thu, 21 Jan 2021 11:34:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>windows提权基础知识</title>
+      <link>https://blog.ycdxsb.cn/2acbaae3.html</link>
+      <guid>https://blog.ycdxsb.cn/2acbaae3.html</guid>
+      <pubDate>Thu, 21 Jan 2021 11:34:06 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;调研调研，真的不想再调研了，淦！&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/2acbaae3.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>ROP Emporium (中)</title>
@@ -311,7 +336,7 @@
       <guid>https://blog.ycdxsb.cn/b7ee330c.html</guid>
       <pubDate>Fri, 09 Oct 2020 13:09:00 GMT</pubDate>
       
-      <description>请输入密码查看.若无反应.请使用firefox浏览器</description>
+      <description>&lt;blockquote&gt;&lt;p&gt;在一道密码学题目中碰到的问题，需要绕过Miller-Rabin素性测试，稍微记录一下&lt;/p&gt;&lt;/blockquote&gt;</description>
       
       
       
@@ -506,31 +531,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/62acab4f.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Knapsack Problem</title>
-      <link>https://blog.ycdxsb.cn/c65d2bd5.html</link>
-      <guid>https://blog.ycdxsb.cn/c65d2bd5.html</guid>
-      <pubDate>Thu, 06 Aug 2020 08:39:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;最近经常碰到背包问题，所以稍微整理一下&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#问题描述&quot;&gt;¶&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;一般我们碰到的都是0 1背包问题，如下，我们已有数字$a_1,a_2…a_n$，从中给它们分别赋予0或者1的权重$w_i$，使得最终的和为$W$，即&lt;/p&gt;&lt;p&gt;$$\sum_1^n w_ia_i = W$$&lt;/p&gt;&lt;p&gt;而在这类问题中，当$n$较大时就是一个$2^n$复杂度的NP问题&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/c65d2bd5.html#disqus_thread</comments>
       
     </item>
     
