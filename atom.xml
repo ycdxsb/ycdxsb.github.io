@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-01-21T11:34:06.436Z</updated>
+  <updated>2021-03-03T03:34:47.990Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>windows权限管理机制</title>
+    <link href="https://blog.ycdxsb.cn/e2c44604.html"/>
+    <id>https://blog.ycdxsb.cn/e2c44604.html</id>
+    <published>2021-03-03T03:34:47.990Z</published>
+    <updated>2021-03-03T03:34:47.990Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;Windows 通过相互关联的&lt;strong&gt;身份验证&lt;/strong&gt;和&lt;strong&gt;授权机制&lt;/strong&gt;来控制&lt;strong&gt;系统资源&lt;/strong&gt;和&lt;strong&gt;网络资源&lt;/strong&gt;的使用。 对用户进行身份验证后，Windows 操作系统使用内置&lt;strong&gt;授权和访问控制技术&lt;/strong&gt;来实现保护资源的第二阶段：确定经过身份验证的用户是否具有访问资源的正确权限。&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="windows" scheme="https://blog.ycdxsb.cn/categories/research/windows/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>windows提权基础知识</title>
     <link href="https://blog.ycdxsb.cn/2acbaae3.html"/>
     <id>https://blog.ycdxsb.cn/2acbaae3.html</id>
     <published>2021-01-21T11:34:06.436Z</published>
-    <updated>2021-01-21T11:34:06.436Z</updated>
+    <updated>2021-01-21T11:34:40.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;调研调研，真的不想再调研了，淦！&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -470,25 +493,6 @@
     <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
     
     <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2020.08.12 迪士尼的天很蓝，城堡很美</title>
-    <link href="https://blog.ycdxsb.cn/62acab4f.html"/>
-    <id>https://blog.ycdxsb.cn/62acab4f.html</id>
-    <published>2020-08-11T16:00:00.000Z</published>
-    <updated>2021-01-11T06:13:36.823Z</updated>
-    
-    
-    <summary type="html">请输入密码查看.若无反应.请使用firefox浏览器</summary>
-    
-    
-    
-    <category term="life" scheme="https://blog.ycdxsb.cn/categories/life/"/>
-    
-    
-    <category term="life" scheme="https://blog.ycdxsb.cn/tags/life/"/>
     
   </entry>
   

@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Thu, 21 Jan 2021 11:34:06 GMT</pubDate>
+    <pubDate>Wed, 03 Mar 2021 03:34:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>windows权限管理机制</title>
+      <link>https://blog.ycdxsb.cn/e2c44604.html</link>
+      <guid>https://blog.ycdxsb.cn/e2c44604.html</guid>
+      <pubDate>Wed, 03 Mar 2021 03:34:47 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;Windows 通过相互关联的&lt;strong&gt;身份验证&lt;/strong&gt;和&lt;strong&gt;授权机制&lt;/strong&gt;来控制&lt;strong&gt;系统资源&lt;/strong&gt;和&lt;strong&gt;网络资源&lt;/strong&gt;的使用。 对用户进行身份验证后，Windows 操作系统使用内置&lt;strong&gt;授权和访问控制技术&lt;/strong&gt;来实现保护资源的第二阶段：确定经过身份验证的用户是否具有访问资源的正确权限。&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/e2c44604.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>windows提权基础知识</title>
@@ -510,27 +535,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/99505d2e.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>2020.08.12 迪士尼的天很蓝，城堡很美</title>
-      <link>https://blog.ycdxsb.cn/62acab4f.html</link>
-      <guid>https://blog.ycdxsb.cn/62acab4f.html</guid>
-      <pubDate>Tue, 11 Aug 2020 16:00:00 GMT</pubDate>
-      
-      <description>请输入密码查看.若无反应.请使用firefox浏览器</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/life/">life</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/life/">life</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/62acab4f.html#disqus_thread</comments>
       
     </item>
     
