@@ -15,8 +15,39 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Wed, 03 Mar 2021 03:34:47 GMT</pubDate>
+    <pubDate>Wed, 03 Mar 2021 03:38:51 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>linux权限管理机制</title>
+      <link>https://blog.ycdxsb.cn/8f72536d.html</link>
+      <guid>https://blog.ycdxsb.cn/8f72536d.html</guid>
+      <pubDate>Wed, 03 Mar 2021 03:38:42 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;&lt;span id=&quot;prwx-wen-jian-quan-xian-kong-zhi&quot;&gt;RWX 文件权限控制&lt;/span&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/linux-kernel/">linux_kernel</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/linux-kernel/">linux kernel</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/8f72536d.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>windows权限管理机制</title>
@@ -506,35 +537,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/40c735f5.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection(AAAI 2020)</title>
-      <link>https://blog.ycdxsb.cn/99505d2e.html</link>
-      <guid>https://blog.ycdxsb.cn/99505d2e.html</guid>
-      <pubDate>Sat, 15 Aug 2020 12:06:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;​ 二进制代码相似性检测：在没有源代码的情况下检测相似的二进制函数。传统的方法一般使用图匹配算法进行检测，但传统方法准确率低且复杂度高。深度学习的发展为这一领域提供的新的方法，根据控制流图生成CFG，并使用GNN计算图嵌入，既高效又准确。本文提出Semantic-Aware Neural Networks ，取得了不错的成果&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/99505d2e.html#disqus_thread</comments>
       
     </item>
     

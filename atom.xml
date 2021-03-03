@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-03-03T03:34:47.990Z</updated>
+  <updated>2021-03-03T03:38:51.210Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>linux权限管理机制</title>
+    <link href="https://blog.ycdxsb.cn/8f72536d.html"/>
+    <id>https://blog.ycdxsb.cn/8f72536d.html</id>
+    <published>2021-03-03T03:38:42.398Z</published>
+    <updated>2021-03-03T03:38:51.210Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;&lt;span id=&quot;prwx-wen-jian-quan-xian-kong-zhi&quot;&gt;RWX 文件权限控制&lt;/span&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="linux_kernel" scheme="https://blog.ycdxsb.cn/categories/research/linux-kernel/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="linux kernel" scheme="https://blog.ycdxsb.cn/tags/linux-kernel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>windows权限管理机制</title>
     <link href="https://blog.ycdxsb.cn/e2c44604.html"/>
     <id>https://blog.ycdxsb.cn/e2c44604.html</id>
     <published>2021-03-03T03:34:47.990Z</published>
-    <updated>2021-03-03T03:34:47.990Z</updated>
+    <updated>2021-03-03T03:35:20.122Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;Windows 通过相互关联的&lt;strong&gt;身份验证&lt;/strong&gt;和&lt;strong&gt;授权机制&lt;/strong&gt;来控制&lt;strong&gt;系统资源&lt;/strong&gt;和&lt;strong&gt;网络资源&lt;/strong&gt;的使用。 对用户进行身份验证后，Windows 操作系统使用内置&lt;strong&gt;授权和访问控制技术&lt;/strong&gt;来实现保护资源的第二阶段：确定经过身份验证的用户是否具有访问资源的正确权限。&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -466,33 +495,6 @@
     <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
     
     <category term="writeup" scheme="https://blog.ycdxsb.cn/tags/writeup/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection(AAAI 2020)</title>
-    <link href="https://blog.ycdxsb.cn/99505d2e.html"/>
-    <id>https://blog.ycdxsb.cn/99505d2e.html</id>
-    <published>2020-08-15T12:06:00.000Z</published>
-    <updated>2021-01-11T06:13:36.823Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;​ 二进制代码相似性检测：在没有源代码的情况下检测相似的二进制函数。传统的方法一般使用图匹配算法进行检测，但传统方法准确率低且复杂度高。深度学习的发展为这一领域提供的新的方法，根据控制流图生成CFG，并使用GNN计算图嵌入，既高效又准确。本文提出Semantic-Aware Neural Networks ，取得了不错的成果&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
-    
-    <category term="automatic_analyse" scheme="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/"/>
-    
-    
-    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
-    
-    <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
     
   </entry>
   
