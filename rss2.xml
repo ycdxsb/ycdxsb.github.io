@@ -15,22 +15,16 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Wed, 03 Mar 2021 03:38:51 GMT</pubDate>
+    <pubDate>Wed, 03 Mar 2021 04:16:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>linux权限管理机制</title>
       <link>https://blog.ycdxsb.cn/8f72536d.html</link>
       <guid>https://blog.ycdxsb.cn/8f72536d.html</guid>
-      <pubDate>Wed, 03 Mar 2021 03:38:42 GMT</pubDate>
+      <pubDate>Wed, 03 Mar 2021 04:16:41 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;&lt;h3&gt;&lt;span id=&quot;prwx-wen-jian-quan-xian-kong-zhi&quot;&gt;RWX 文件权限控制&lt;/span&gt;&lt;a</description>
-          
-        
+      <description>&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;</description>
       
       
       
