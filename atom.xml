@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-03-03T04:16:41.362Z</updated>
+  <updated>2021-03-17T05:37:19.459Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows Kernel Resources</title>
+    <link href="https://blog.ycdxsb.cn/17ea52bf.html"/>
+    <id>https://blog.ycdxsb.cn/17ea52bf.html</id>
+    <published>2021-03-17T05:37:19.459Z</published>
+    <updated>2021-03-17T05:37:19.459Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;windows kernel学习资料整理&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="windows" scheme="https://blog.ycdxsb.cn/categories/research/windows/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>linux权限管理机制</title>
@@ -466,29 +489,6 @@
     <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
     
     <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>强网杯2020 部分writeup</title>
-    <link href="https://blog.ycdxsb.cn/40c735f5.html"/>
-    <id>https://blog.ycdxsb.cn/40c735f5.html</id>
-    <published>2020-08-24T02:43:00.000Z</published>
-    <updated>2020-10-28T03:11:27.665Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;简单记录一下做出的几道题目，以后还是科研为主科研为主&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="writeup" scheme="https://blog.ycdxsb.cn/categories/CTF/writeup/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="writeup" scheme="https://blog.ycdxsb.cn/tags/writeup/"/>
     
   </entry>
   
