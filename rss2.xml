@@ -15,16 +15,16 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 19 Mar 2021 07:43:23 GMT</pubDate>
+    <pubDate>Tue, 23 Mar 2021 00:11:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>Too Quiet in the Library-An Empirical Study of Security Updates in Android Apps Native Code(ICSE 2021)</title>
       <link>https://blog.ycdxsb.cn/dc7da355.html</link>
       <guid>https://blog.ycdxsb.cn/dc7da355.html</guid>
-      <pubDate>Fri, 19 Mar 2021 07:43:23 GMT</pubDate>
+      <pubDate>Tue, 23 Mar 2021 00:11:21 GMT</pubDate>
       
-      <description>&lt;p&gt;论文：&lt;a href=&quot;https://arxiv.org/pdf/1911.09716.pdf&quot;&gt;https://arxiv.org/pdf/1911.09716.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;代码：&lt;a href=&quot;https://github.com/salmanee/Librarian&quot;&gt;https://github.com/salmanee/Librarian&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;论文：&lt;a href=&quot;https://arxiv.org/pdf/1911.09716.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/pdf/1911.09716.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;代码：&lt;a href=&quot;https://github.com/salmanee/Librarian&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/salmanee/Librarian&lt;/a&gt;&lt;/p&gt;</description>
       
       
       
@@ -51,7 +51,7 @@
       <title>Windows Kernel Resources</title>
       <link>https://blog.ycdxsb.cn/17ea52bf.html</link>
       <guid>https://blog.ycdxsb.cn/17ea52bf.html</guid>
-      <pubDate>Wed, 17 Mar 2021 05:37:19 GMT</pubDate>
+      <pubDate>Thu, 18 Mar 2021 14:14:00 GMT</pubDate>
       
       <description>&lt;blockquote&gt;&lt;p&gt;windows kernel学习资料整理&lt;/p&gt;&lt;/blockquote&gt;</description>
       
@@ -73,35 +73,10 @@
     </item>
     
     <item>
-      <title>linux权限管理机制</title>
-      <link>https://blog.ycdxsb.cn/8f72536d.html</link>
-      <guid>https://blog.ycdxsb.cn/8f72536d.html</guid>
-      <pubDate>Wed, 03 Mar 2021 04:16:41 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/linux-kernel/">linux_kernel</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/linux-kernel/">linux kernel</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/8f72536d.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>windows权限管理机制</title>
       <link>https://blog.ycdxsb.cn/e2c44604.html</link>
       <guid>https://blog.ycdxsb.cn/e2c44604.html</guid>
-      <pubDate>Wed, 03 Mar 2021 03:34:47 GMT</pubDate>
+      <pubDate>Mon, 22 Feb 2021 14:14:00 GMT</pubDate>
       
       <description>&lt;blockquote&gt;&lt;p&gt;Windows 通过相互关联的&lt;strong&gt;身份验证&lt;/strong&gt;和&lt;strong&gt;授权机制&lt;/strong&gt;来控制&lt;strong&gt;系统资源&lt;/strong&gt;和&lt;strong&gt;网络资源&lt;/strong&gt;的使用。 对用户进行身份验证后，Windows 操作系统使用内置&lt;strong&gt;授权和访问控制技术&lt;/strong&gt;来实现保护资源的第二阶段：确定经过身份验证的用户是否具有访问资源的正确权限。&lt;/p&gt;&lt;/blockquote&gt;</description>
       
@@ -126,7 +101,7 @@
       <title>windows提权基础知识</title>
       <link>https://blog.ycdxsb.cn/2acbaae3.html</link>
       <guid>https://blog.ycdxsb.cn/2acbaae3.html</guid>
-      <pubDate>Thu, 21 Jan 2021 11:34:06 GMT</pubDate>
+      <pubDate>Thu, 11 Feb 2021 14:14:00 GMT</pubDate>
       
       <description>&lt;blockquote&gt;&lt;p&gt;调研调研，真的不想再调研了，淦！&lt;/p&gt;&lt;/blockquote&gt;</description>
       
@@ -144,6 +119,31 @@
       
       
       <comments>https://blog.ycdxsb.cn/2acbaae3.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux权限管理机制</title>
+      <link>https://blog.ycdxsb.cn/8f72536d.html</link>
+      <guid>https://blog.ycdxsb.cn/8f72536d.html</guid>
+      <pubDate>Tue, 02 Feb 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/linux-kernel/">linux_kernel</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/linux-kernel/">linux kernel</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/8f72536d.html#disqus_thread</comments>
       
     </item>
     
@@ -181,135 +181,10 @@
     </item>
     
     <item>
-      <title>CodeQL之CWE-401(4)</title>
-      <link>https://blog.ycdxsb.cn/fcace802.html</link>
-      <guid>https://blog.ycdxsb.cn/fcace802.html</guid>
-      <pubDate>Tue, 05 Jan 2021 10:59:50 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;之前我们简要的将CWE-401分为了两类：第一类为(过程内)不存在一条路径，将已分配的内存进行了释放，而在写脚本时，我们并没有解决参数传递导致的误报&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/fcace802.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CodeQL之CWE-401(3)</title>
-      <link>https://blog.ycdxsb.cn/b3ed7ec5.html</link>
-      <guid>https://blog.ycdxsb.cn/b3ed7ec5.html</guid>
-      <pubDate>Tue, 05 Jan 2021 10:59:43 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;在第一部分中，我们将&lt;code&gt;CWE-401&lt;/code&gt;简单分为两类，第一类是对于分配的内存，不存在路径对它进行了释放，第二类是有的路径释放了，而有的路径忘了释放，现在我们对第二类进行解决&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/b3ed7ec5.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CodeQL之CWE-401(2)</title>
-      <link>https://blog.ycdxsb.cn/aaf64f84.html</link>
-      <guid>https://blog.ycdxsb.cn/aaf64f84.html</guid>
-      <pubDate>Tue, 05 Jan 2021 10:59:34 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;在写第二类&lt;code&gt;CWE-401&lt;/code&gt;的查询脚本前，我们需要补充一些东西、在能找到的&lt;code&gt;codeql&lt;/code&gt;文档里，大部分都只强推了它的&lt;code&gt;DataFlow&lt;/code&gt;模块，而在写第二类查询脚本时，需要用到它的可达性分析模块&lt;code&gt;import semmle.code.cpp.controlflow.StackVariableReachability&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/aaf64f84.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CodeQL之CWE-401(1)</title>
-      <link>https://blog.ycdxsb.cn/81db1c47.html</link>
-      <guid>https://blog.ycdxsb.cn/81db1c47.html</guid>
-      <pubDate>Tue, 05 Jan 2021 10:59:27 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/81db1c47.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Linux 提权</title>
-      <link>https://blog.ycdxsb.cn/f3ed21e4.html</link>
-      <guid>https://blog.ycdxsb.cn/f3ed21e4.html</guid>
-      <pubDate>Thu, 24 Dec 2020 02:50:34 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;信息搜集&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#信息搜集&quot;&gt;¶&lt;/a&gt;信息搜集&lt;/h2&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/pentest/">pentest</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/pentest/">pentest</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/f3ed21e4.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>linux切换内核版本</title>
       <link>https://blog.ycdxsb.cn/a453e6a.html</link>
       <guid>https://blog.ycdxsb.cn/a453e6a.html</guid>
-      <pubDate>Mon, 07 Dec 2020 05:25:36 GMT</pubDate>
+      <pubDate>Sun, 20 Dec 2020 14:14:00 GMT</pubDate>
       
       <description>&lt;p&gt;内核文件包含：&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux-image-版本号：内核映像文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-headers-版本号：内核头文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-image-extra-版本号：内核扩展文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
       
@@ -334,7 +209,7 @@
       <title>Similarity of Binaries Across Optimization Levels and Obfuscation(ESORICS 2020)</title>
       <link>https://blog.ycdxsb.cn/930679b9.html</link>
       <guid>https://blog.ycdxsb.cn/930679b9.html</guid>
-      <pubDate>Tue, 01 Dec 2020 12:28:46 GMT</pubDate>
+      <pubDate>Thu, 10 Dec 2020 14:14:00 GMT</pubDate>
       
       <description>&lt;blockquote&gt;&lt;p&gt;现有的二进制相似度检测工作并没有很好的解决编译优化和混淆带来的影响，所以作者提出了&lt;code&gt;IMOPT&lt;/code&gt;来重新优化代码，用于提高代码相似性检测的准确率。&lt;/p&gt;&lt;p&gt;该方法在测试集上和原本的Asm2vec相比，将精度提高了22.7%，并且可以缓解ollvm混淆带来的影响&lt;/p&gt;&lt;/blockquote&gt;</description>
       
@@ -360,10 +235,110 @@
     </item>
     
     <item>
+      <title>CodeQL之CWE-401(4)</title>
+      <link>https://blog.ycdxsb.cn/fcace802.html</link>
+      <guid>https://blog.ycdxsb.cn/fcace802.html</guid>
+      <pubDate>Mon, 30 Nov 2020 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;之前我们简要的将CWE-401分为了两类：第一类为(过程内)不存在一条路径，将已分配的内存进行了释放，而在写脚本时，我们并没有解决参数传递导致的误报&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/fcace802.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CodeQL之CWE-401(3)</title>
+      <link>https://blog.ycdxsb.cn/b3ed7ec5.html</link>
+      <guid>https://blog.ycdxsb.cn/b3ed7ec5.html</guid>
+      <pubDate>Fri, 20 Nov 2020 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;在第一部分中，我们将&lt;code&gt;CWE-401&lt;/code&gt;简单分为两类，第一类是对于分配的内存，不存在路径对它进行了释放，第二类是有的路径释放了，而有的路径忘了释放，现在我们对第二类进行解决&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/b3ed7ec5.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CodeQL之CWE-401(2)</title>
+      <link>https://blog.ycdxsb.cn/aaf64f84.html</link>
+      <guid>https://blog.ycdxsb.cn/aaf64f84.html</guid>
+      <pubDate>Tue, 10 Nov 2020 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;在写第二类&lt;code&gt;CWE-401&lt;/code&gt;的查询脚本前，我们需要补充一些东西、在能找到的&lt;code&gt;codeql&lt;/code&gt;文档里，大部分都只强推了它的&lt;code&gt;DataFlow&lt;/code&gt;模块，而在写第二类查询脚本时，需要用到它的可达性分析模块&lt;code&gt;import semmle.code.cpp.controlflow.StackVariableReachability&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/aaf64f84.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CodeQL之CWE-401(1)</title>
+      <link>https://blog.ycdxsb.cn/81db1c47.html</link>
+      <guid>https://blog.ycdxsb.cn/81db1c47.html</guid>
+      <pubDate>Sun, 08 Nov 2020 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/81db1c47.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>CodeQL之CWE-252</title>
       <link>https://blog.ycdxsb.cn/3f2f6cef.html</link>
       <guid>https://blog.ycdxsb.cn/3f2f6cef.html</guid>
-      <pubDate>Tue, 17 Nov 2020 01:33:34 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2020 14:14:00 GMT</pubDate>
       
       <description>&lt;blockquote&gt;&lt;p&gt;CWE-252: Unchecked Return Value&lt;/p&gt;&lt;p&gt;The software does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;顾名思义，&lt;code&gt;Unchecked Return Value&lt;/code&gt;，就是在实际代码中缺少了对返回值的检查，在实际代码中，对错误返回值的检查尤为重要，因为需要进入到相应的错误处理环节中去，否则会影响程序的正常运行。比如我们常见的对&lt;code&gt;malloc&lt;/code&gt;返回值的检查等等，和&lt;code&gt;CWE-252&lt;/code&gt;相关的还有&lt;code&gt;CWE-754&lt;/code&gt;、&lt;code&gt;CWE-273&lt;/code&gt;、&lt;code&gt;CWE-476&lt;/code&gt;&lt;/p&gt;</description>
       
@@ -381,31 +356,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/3f2f6cef.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CVE-2018-1336和CVE-2018-8034</title>
-      <link>https://blog.ycdxsb.cn/9dc656c7.html</link>
-      <guid>https://blog.ycdxsb.cn/9dc656c7.html</guid>
-      <pubDate>Fri, 30 Oct 2020 03:31:28 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;CVE-2018-1336&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#CVE-2018-1336&quot;&gt;¶&lt;/a&gt;CVE-2018-1336&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper handing of overflow in the UTF-8 decoder with supplementary characters can lead to an infinite loop in the decoder causing a Denial of Service. Versions Affected: Apache Tomcat 9.0.0.M9 to 9.0.7, 8.5.0 to 8.5.30, 8.0.0.RC1 to 8.0.51, and 7.0.28 to 7.0.86.&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/9dc656c7.html#disqus_thread</comments>
       
     </item>
     
@@ -456,6 +406,56 @@
       
       
       <comments>https://blog.ycdxsb.cn/b7ee330c.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Linux 提权</title>
+      <link>https://blog.ycdxsb.cn/f3ed21e4.html</link>
+      <guid>https://blog.ycdxsb.cn/f3ed21e4.html</guid>
+      <pubDate>Tue, 06 Oct 2020 14:14:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;信息搜集&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#信息搜集&quot;&gt;¶&lt;/a&gt;信息搜集&lt;/h2&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pentest/">pentest</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/pentest/">pentest</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/f3ed21e4.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CVE-2018-1336和CVE-2018-8034</title>
+      <link>https://blog.ycdxsb.cn/9dc656c7.html</link>
+      <guid>https://blog.ycdxsb.cn/9dc656c7.html</guid>
+      <pubDate>Sat, 19 Sep 2020 14:14:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;CVE-2018-1336&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#CVE-2018-1336&quot;&gt;¶&lt;/a&gt;CVE-2018-1336&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper handing of overflow in the UTF-8 decoder with supplementary characters can lead to an infinite loop in the decoder causing a Denial of Service. Versions Affected: Apache Tomcat 9.0.0.M9 to 9.0.7, 8.5.0 to 8.5.30, 8.0.0.RC1 to 8.0.51, and 7.0.28 to 7.0.86.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/9dc656c7.html#disqus_thread</comments>
       
     </item>
     
