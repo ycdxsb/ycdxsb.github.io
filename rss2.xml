@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>食兔人的博客</title>
+    <link>https://blog.ycdxsb.cn/</link>
+    
+    <image>
+      <url>https://blog.ycdxsb.cn/icon.png</url>
+      <title>食兔人的博客</title>
+      <link>https://blog.ycdxsb.cn/</link>
+    </image>
+    
+    <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>About My Life and Study</description>
+    <pubDate>Fri, 19 Mar 2021 07:43:23 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Too Quiet in the Library-An Empirical Study of Security Updates in Android Apps Native Code(ICSE 2021)</title>
+      <link>https://blog.ycdxsb.cn/dc7da355.html</link>
+      <guid>https://blog.ycdxsb.cn/dc7da355.html</guid>
+      <pubDate>Fri, 19 Mar 2021 07:43:23 GMT</pubDate>
+      
+      <description>&lt;p&gt;论文：&lt;a href=&quot;https://arxiv.org/pdf/1911.09716.pdf&quot;&gt;https://arxiv.org/pdf/1911.09716.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;代码：&lt;a href=&quot;https://github.com/salmanee/Librarian&quot;&gt;https://github.com/salmanee/Librarian&lt;/a&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/dc7da355.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows Kernel Resources</title>
+      <link>https://blog.ycdxsb.cn/17ea52bf.html</link>
+      <guid>https://blog.ycdxsb.cn/17ea52bf.html</guid>
+      <pubDate>Wed, 17 Mar 2021 05:37:19 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;windows kernel学习资料整理&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/17ea52bf.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux权限管理机制</title>
+      <link>https://blog.ycdxsb.cn/8f72536d.html</link>
+      <guid>https://blog.ycdxsb.cn/8f72536d.html</guid>
+      <pubDate>Wed, 03 Mar 2021 04:16:41 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/linux-kernel/">linux_kernel</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/linux-kernel/">linux kernel</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/8f72536d.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>windows权限管理机制</title>
+      <link>https://blog.ycdxsb.cn/e2c44604.html</link>
+      <guid>https://blog.ycdxsb.cn/e2c44604.html</guid>
+      <pubDate>Wed, 03 Mar 2021 03:34:47 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;Windows 通过相互关联的&lt;strong&gt;身份验证&lt;/strong&gt;和&lt;strong&gt;授权机制&lt;/strong&gt;来控制&lt;strong&gt;系统资源&lt;/strong&gt;和&lt;strong&gt;网络资源&lt;/strong&gt;的使用。 对用户进行身份验证后，Windows 操作系统使用内置&lt;strong&gt;授权和访问控制技术&lt;/strong&gt;来实现保护资源的第二阶段：确定经过身份验证的用户是否具有访问资源的正确权限。&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/e2c44604.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>windows提权基础知识</title>
+      <link>https://blog.ycdxsb.cn/2acbaae3.html</link>
+      <guid>https://blog.ycdxsb.cn/2acbaae3.html</guid>
+      <pubDate>Thu, 21 Jan 2021 11:34:06 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;调研调研，真的不想再调研了，淦！&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/2acbaae3.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>ROP Emporium (中)</title>
+      <link>https://blog.ycdxsb.cn/77e17aac.html</link>
+      <guid>https://blog.ycdxsb.cn/77e17aac.html</guid>
+      <pubDate>Fri, 08 Jan 2021 09:19:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;ROP Emporium 第二部分&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/">pwn</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/">stack_overflow</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/ROP-Emporium/">ROP_Emporium</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/pwn/">pwn</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/stack-overflow/">stack overflow</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/ROP-Emporium/">ROP Emporium</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/77e17aac.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CodeQL之CWE-401(4)</title>
+      <link>https://blog.ycdxsb.cn/fcace802.html</link>
+      <guid>https://blog.ycdxsb.cn/fcace802.html</guid>
+      <pubDate>Tue, 05 Jan 2021 10:59:50 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;之前我们简要的将CWE-401分为了两类：第一类为(过程内)不存在一条路径，将已分配的内存进行了释放，而在写脚本时，我们并没有解决参数传递导致的误报&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/fcace802.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CodeQL之CWE-401(3)</title>
+      <link>https://blog.ycdxsb.cn/b3ed7ec5.html</link>
+      <guid>https://blog.ycdxsb.cn/b3ed7ec5.html</guid>
+      <pubDate>Tue, 05 Jan 2021 10:59:43 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;在第一部分中，我们将&lt;code&gt;CWE-401&lt;/code&gt;简单分为两类，第一类是对于分配的内存，不存在路径对它进行了释放，第二类是有的路径释放了，而有的路径忘了释放，现在我们对第二类进行解决&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/b3ed7ec5.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CodeQL之CWE-401(2)</title>
+      <link>https://blog.ycdxsb.cn/aaf64f84.html</link>
+      <guid>https://blog.ycdxsb.cn/aaf64f84.html</guid>
+      <pubDate>Tue, 05 Jan 2021 10:59:34 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;在写第二类&lt;code&gt;CWE-401&lt;/code&gt;的查询脚本前，我们需要补充一些东西、在能找到的&lt;code&gt;codeql&lt;/code&gt;文档里，大部分都只强推了它的&lt;code&gt;DataFlow&lt;/code&gt;模块，而在写第二类查询脚本时，需要用到它的可达性分析模块&lt;code&gt;import semmle.code.cpp.controlflow.StackVariableReachability&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/aaf64f84.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CodeQL之CWE-401(1)</title>
+      <link>https://blog.ycdxsb.cn/81db1c47.html</link>
+      <guid>https://blog.ycdxsb.cn/81db1c47.html</guid>
+      <pubDate>Tue, 05 Jan 2021 10:59:27 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/81db1c47.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Linux 提权</title>
+      <link>https://blog.ycdxsb.cn/f3ed21e4.html</link>
+      <guid>https://blog.ycdxsb.cn/f3ed21e4.html</guid>
+      <pubDate>Thu, 24 Dec 2020 02:50:34 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;信息搜集&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#信息搜集&quot;&gt;¶&lt;/a&gt;信息搜集&lt;/h2&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pentest/">pentest</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/pentest/">pentest</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/f3ed21e4.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>linux切换内核版本</title>
+      <link>https://blog.ycdxsb.cn/a453e6a.html</link>
+      <guid>https://blog.ycdxsb.cn/a453e6a.html</guid>
+      <pubDate>Mon, 07 Dec 2020 05:25:36 GMT</pubDate>
+      
+      <description>&lt;p&gt;内核文件包含：&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;linux-image-版本号：内核映像文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-headers-版本号：内核头文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linux-image-extra-版本号：内核扩展文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/linux-kernel/">linux_kernel</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/linux-kernel/">linux kernel</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/a453e6a.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Similarity of Binaries Across Optimization Levels and Obfuscation(ESORICS 2020)</title>
+      <link>https://blog.ycdxsb.cn/930679b9.html</link>
+      <guid>https://blog.ycdxsb.cn/930679b9.html</guid>
+      <pubDate>Tue, 01 Dec 2020 12:28:46 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;现有的二进制相似度检测工作并没有很好的解决编译优化和混淆带来的影响，所以作者提出了&lt;code&gt;IMOPT&lt;/code&gt;来重新优化代码，用于提高代码相似性检测的准确率。&lt;/p&gt;&lt;p&gt;该方法在测试集上和原本的Asm2vec相比，将精度提高了22.7%，并且可以缓解ollvm混淆带来的影响&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/930679b9.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CodeQL之CWE-252</title>
+      <link>https://blog.ycdxsb.cn/3f2f6cef.html</link>
+      <guid>https://blog.ycdxsb.cn/3f2f6cef.html</guid>
+      <pubDate>Tue, 17 Nov 2020 01:33:34 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;CWE-252: Unchecked Return Value&lt;/p&gt;&lt;p&gt;The software does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;顾名思义，&lt;code&gt;Unchecked Return Value&lt;/code&gt;，就是在实际代码中缺少了对返回值的检查，在实际代码中，对错误返回值的检查尤为重要，因为需要进入到相应的错误处理环节中去，否则会影响程序的正常运行。比如我们常见的对&lt;code&gt;malloc&lt;/code&gt;返回值的检查等等，和&lt;code&gt;CWE-252&lt;/code&gt;相关的还有&lt;code&gt;CWE-754&lt;/code&gt;、&lt;code&gt;CWE-273&lt;/code&gt;、&lt;code&gt;CWE-476&lt;/code&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/3f2f6cef.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CVE-2018-1336和CVE-2018-8034</title>
+      <link>https://blog.ycdxsb.cn/9dc656c7.html</link>
+      <guid>https://blog.ycdxsb.cn/9dc656c7.html</guid>
+      <pubDate>Fri, 30 Oct 2020 03:31:28 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;CVE-2018-1336&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#CVE-2018-1336&quot;&gt;¶&lt;/a&gt;CVE-2018-1336&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper handing of overflow in the UTF-8 decoder with supplementary characters can lead to an infinite loop in the decoder causing a Denial of Service. Versions Affected: Apache Tomcat 9.0.0.M9 to 9.0.7, 8.5.0 to 8.5.30, 8.0.0.RC1 to 8.0.51, and 7.0.28 to 7.0.86.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/9dc656c7.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CVE-2020-9484</title>
+      <link>https://blog.ycdxsb.cn/de7e28a5.html</link>
+      <guid>https://blog.ycdxsb.cn/de7e28a5.html</guid>
+      <pubDate>Wed, 28 Oct 2020 04:22:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.5.0 to 8.5.54 and 7.0.0 to 7.0.103 if a) an attacker is able to control the contents and name of a file on the server; and b) the server is configured to use the PersistenceManager with a FileStore; and c) the PersistenceManager is configured with sessionAttributeValueClassNameFilter=“null” (the default unless a SecurityManager is used) or a sufficiently lax filter to allow the attacker provided object to be deserialized; and d) the attacker knows the relative file path from the storage location used by FileStore to the file the attacker has control over; then, using a specifically crafted request, the attacker will be able to trigger remote code execution via deserialization of the file under their control. Note that all of conditions a) to d) must be true for the attack to succeed.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/de7e28a5.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Bypass Miller Rabin Test</title>
+      <link>https://blog.ycdxsb.cn/b7ee330c.html</link>
+      <guid>https://blog.ycdxsb.cn/b7ee330c.html</guid>
+      <pubDate>Fri, 09 Oct 2020 13:09:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;在一道密码学题目中碰到的问题，需要绕过Miller-Rabin素性测试，稍微记录一下&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/b7ee330c.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CVE-2020-1938</title>
+      <link>https://blog.ycdxsb.cn/f95006f9.html</link>
+      <guid>https://blog.ycdxsb.cn/f95006f9.html</guid>
+      <pubDate>Fri, 18 Sep 2020 04:58:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本信息&quot;&gt;¶&lt;/a&gt;基本信息&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/f95006f9.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>CVE-2017-12617</title>
+      <link>https://blog.ycdxsb.cn/e50797f2.html</link>
+      <guid>https://blog.ycdxsb.cn/e50797f2.html</guid>
+      <pubDate>Fri, 18 Sep 2020 04:22:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本信息&quot;&gt;¶&lt;/a&gt;基本信息&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default servlet to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/e50797f2.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>5space 线下决赛部分 writeup</title>
+      <link>https://blog.ycdxsb.cn/762edb82.html</link>
+      <guid>https://blog.ycdxsb.cn/762edb82.html</guid>
+      <pubDate>Mon, 14 Sep 2020 02:43:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;所以爱会消失对不对&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/writeup/">writeup</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/writeup/">writeup</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/762edb82.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
