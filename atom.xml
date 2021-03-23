@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-03-23T01:13:29.322Z</updated>
+  <updated>2021-03-23T11:13:32.864Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CVE-2020-0787 BITS任意文件移动漏洞</title>
+    <link href="https://blog.ycdxsb.cn/57177eae.html"/>
+    <id>https://blog.ycdxsb.cn/57177eae.html</id>
+    <published>2021-03-24T14:14:00.000Z</published>
+    <updated>2021-03-23T11:13:32.864Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;漏洞组件：后台智能传输服务模块(BITS)&lt;/p&gt;&lt;p&gt;组件特点：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;从HTTP Web服务器和SMB文件共享下载文件或将文件上传到HTTP Web服务器和SMB文件共享。&lt;/li&gt;&lt;li&gt;BITS将考虑传输成本以及网络使用情况，以便用户的前台工作影响尽可能小&lt;/li&gt;&lt;li&gt;即使重新启动后，BITS也可以处理网络中断，暂停并自动恢复传输。&lt;/li&gt;&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="windows" scheme="https://blog.ycdxsb.cn/categories/research/windows/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>ATVHUNTER:Reliable Version Detection of Third-Party Libraries for Vulnerability Identification in Android Applications(ICSE 2021)</title>
@@ -459,29 +482,6 @@
     
     
     <summary type="html">&lt;h2 id=&quot;CVE-2018-1336&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#CVE-2018-1336&quot;&gt;¶&lt;/a&gt;CVE-2018-1336&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper handing of overflow in the UTF-8 decoder with supplementary characters can lead to an infinite loop in the decoder causing a Denial of Service. Versions Affected: Apache Tomcat 9.0.0.M9 to 9.0.7, 8.5.0 to 8.5.30, 8.0.0.RC1 to 8.0.51, and 7.0.28 to 7.0.86.&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="CVE" scheme="https://blog.ycdxsb.cn/categories/CTF/CVE/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="CVE" scheme="https://blog.ycdxsb.cn/tags/CVE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CVE-2020-1938</title>
-    <link href="https://blog.ycdxsb.cn/f95006f9.html"/>
-    <id>https://blog.ycdxsb.cn/f95006f9.html</id>
-    <published>2020-09-18T04:58:00.000Z</published>
-    <updated>2021-03-23T00:11:21.022Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本信息&quot;&gt;¶&lt;/a&gt;基本信息&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
