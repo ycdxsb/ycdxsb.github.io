@@ -48,6 +48,31 @@
     </item>
     
     <item>
+      <title>CVE-2020-0796 SMB Ghost 整数溢出漏洞</title>
+      <link>https://blog.ycdxsb.cn/6ba048bc.html</link>
+      <guid>https://blog.ycdxsb.cn/6ba048bc.html</guid>
+      <pubDate>Tue, 23 Mar 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;漏洞位置：SMB服务驱动srv2.sys和srvnet.sys&lt;/p&gt;&lt;p&gt;漏洞原因：用户态可控数据传入内核，SMB在解压数据包的时候使用客户端传过来的长度进行解压时,并没有检查长度是否合法，导致整数溢出，最后通过构造payload，实现任意地址写，替换token权限提权&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/6ba048bc.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Too Quiet in the Library-An Empirical Study of Security Updates in Android Apps Native Code(ICSE 2021)</title>
       <link>https://blog.ycdxsb.cn/dc7da355.html</link>
       <guid>https://blog.ycdxsb.cn/dc7da355.html</guid>
@@ -510,31 +535,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/f95006f9.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CVE-2017-12617</title>
-      <link>https://blog.ycdxsb.cn/e50797f2.html</link>
-      <guid>https://blog.ycdxsb.cn/e50797f2.html</guid>
-      <pubDate>Fri, 18 Sep 2020 04:22:00 GMT</pubDate>
-      
-      <description>&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本信息&quot;&gt;¶&lt;/a&gt;基本信息&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default servlet to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/e50797f2.html#disqus_thread</comments>
       
     </item>
     
