@@ -15,16 +15,45 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Tue, 23 Mar 2021 00:11:21 GMT</pubDate>
+    <pubDate>Tue, 23 Mar 2021 01:13:29 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>ATVHUNTER:Reliable Version Detection of Third-Party Libraries for Vulnerability Identification in Android Applications(ICSE 2021)</title>
+      <link>https://blog.ycdxsb.cn/953aec69.html</link>
+      <guid>https://blog.ycdxsb.cn/953aec69.html</guid>
+      <pubDate>Tue, 23 Mar 2021 15:57:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;基本介绍&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本介绍&quot;&gt;¶&lt;/a&gt;基本介绍&lt;/h2&gt;&lt;p&gt;**研究背景：**安卓中第三方库(TPLs)使用十分常见，检测第三方库对于漏洞识别等都十分有用，但是由于TPL的分散性、直接或间接的依赖性以及应用中TPL信息的不透明性，现有工具不能很好的检测，更不用说检测具体某版本&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/953aec69.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Too Quiet in the Library-An Empirical Study of Security Updates in Android Apps Native Code(ICSE 2021)</title>
       <link>https://blog.ycdxsb.cn/dc7da355.html</link>
       <guid>https://blog.ycdxsb.cn/dc7da355.html</guid>
-      <pubDate>Tue, 23 Mar 2021 00:11:21 GMT</pubDate>
+      <pubDate>Sat, 20 Mar 2021 15:57:00 GMT</pubDate>
       
-      <description>&lt;p&gt;论文：&lt;a href=&quot;https://arxiv.org/pdf/1911.09716.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/pdf/1911.09716.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;代码：&lt;a href=&quot;https://github.com/salmanee/Librarian&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/salmanee/Librarian&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;论文：&lt;a href=&quot;https://arxiv.org/pdf/1911.09716.pdf&quot;&gt;https://arxiv.org/pdf/1911.09716.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;代码：&lt;a href=&quot;https://github.com/salmanee/Librarian&quot;&gt;https://github.com/salmanee/Librarian&lt;/a&gt;&lt;/p&gt;</description>
       
       
       
@@ -506,31 +535,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/e50797f2.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>5space 线下决赛部分 writeup</title>
-      <link>https://blog.ycdxsb.cn/762edb82.html</link>
-      <guid>https://blog.ycdxsb.cn/762edb82.html</guid>
-      <pubDate>Mon, 14 Sep 2020 02:43:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;所以爱会消失对不对&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/writeup/">writeup</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/writeup/">writeup</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/762edb82.html#disqus_thread</comments>
       
     </item>
     
