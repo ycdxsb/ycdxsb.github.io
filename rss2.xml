@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Tue, 23 Mar 2021 11:13:32 GMT</pubDate>
+    <pubDate>Thu, 25 Mar 2021 09:33:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>HEVD3.0环境搭建</title>
+      <link>https://blog.ycdxsb.cn/46ae8303.html</link>
+      <guid>https://blog.ycdxsb.cn/46ae8303.html</guid>
+      <pubDate>Thu, 25 Mar 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;基本环境&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本环境&quot;&gt;¶&lt;/a&gt;基本环境&lt;/h2&gt;&lt;p&gt;漏洞驱动：&lt;a href=&quot;https://github.com/hacksysteam/HackSysExtremeVulnerableDriver/&quot;&gt;HEVD 3.0&lt;/a&gt;&lt;br&gt;宿主机(Host)：Win10&lt;br&gt;被调试机(Guest)：VMware16.0 Win7sp1&lt;br&gt;调试工具：Windows Preview&lt;br&gt;驱动加载工具：&lt;a href=&quot;https://www.osronline.com/article.cfm%5earticle=157.htm&quot;&gt;OSRLoader&lt;/a&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/HEVD/">HEVD</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/HEVD/">HEVD</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/46ae8303.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>CVE-2020-0787 BITS任意文件移动漏洞</title>
@@ -510,31 +535,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/f3ed21e4.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CVE-2018-1336和CVE-2018-8034</title>
-      <link>https://blog.ycdxsb.cn/9dc656c7.html</link>
-      <guid>https://blog.ycdxsb.cn/9dc656c7.html</guid>
-      <pubDate>Sat, 19 Sep 2020 14:14:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;CVE-2018-1336&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#CVE-2018-1336&quot;&gt;¶&lt;/a&gt;CVE-2018-1336&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;An improper handing of overflow in the UTF-8 decoder with supplementary characters can lead to an infinite loop in the decoder causing a Denial of Service. Versions Affected: Apache Tomcat 9.0.0.M9 to 9.0.7, 8.5.0 to 8.5.30, 8.0.0.RC1 to 8.0.51, and 7.0.28 to 7.0.86.&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/9dc656c7.html#disqus_thread</comments>
       
     </item>
     
