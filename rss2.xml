@@ -15,8 +15,83 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Thu, 25 Mar 2021 09:33:42 GMT</pubDate>
+    <pubDate>Wed, 31 Mar 2021 06:47:45 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>HEVD ArbitraryOverwrite BitMap [win7sp1]</title>
+      <link>https://blog.ycdxsb.cn/f75b0e15.html</link>
+      <guid>https://blog.ycdxsb.cn/f75b0e15.html</guid>
+      <pubDate>Wed, 31 Mar 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;前面，我们通过复写内核中的HalDispatchTable实现了提权，但是在内核中执行shellcode需要绕过很多保护措施的，因此这里我们引入一种新的方法实现对内核的利用&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/HEVD/">HEVD</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/HEVD/">HEVD</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/f75b0e15.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>HEVD ArbitraryOverwrite [win7sp1]</title>
+      <link>https://blog.ycdxsb.cn/bbe71603.html</link>
+      <guid>https://blog.ycdxsb.cn/bbe71603.html</guid>
+      <pubDate>Tue, 30 Mar 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;HEVD 系列第二类漏洞ArbitraryOverwrite&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/HEVD/">HEVD</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/HEVD/">HEVD</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/bbe71603.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>HEVD StackOverFlow [win7sp1]</title>
+      <link>https://blog.ycdxsb.cn/c09ea323.html</link>
+      <guid>https://blog.ycdxsb.cn/c09ea323.html</guid>
+      <pubDate>Fri, 26 Mar 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;HEVD 系列第一类漏洞StackOverFlow&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/HEVD/">HEVD</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/HEVD/">HEVD</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/c09ea323.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>HEVD3.0环境搭建</title>
@@ -460,81 +535,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/3f2f6cef.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CVE-2020-9484</title>
-      <link>https://blog.ycdxsb.cn/de7e28a5.html</link>
-      <guid>https://blog.ycdxsb.cn/de7e28a5.html</guid>
-      <pubDate>Wed, 28 Oct 2020 04:22:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.5.0 to 8.5.54 and 7.0.0 to 7.0.103 if a) an attacker is able to control the contents and name of a file on the server; and b) the server is configured to use the PersistenceManager with a FileStore; and c) the PersistenceManager is configured with sessionAttributeValueClassNameFilter=“null” (the default unless a SecurityManager is used) or a sufficiently lax filter to allow the attacker provided object to be deserialized; and d) the attacker knows the relative file path from the storage location used by FileStore to the file the attacker has control over; then, using a specifically crafted request, the attacker will be able to trigger remote code execution via deserialization of the file under their control. Note that all of conditions a) to d) must be true for the attack to succeed.&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/CVE/">CVE</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CVE/">CVE</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/de7e28a5.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Bypass Miller Rabin Test</title>
-      <link>https://blog.ycdxsb.cn/b7ee330c.html</link>
-      <guid>https://blog.ycdxsb.cn/b7ee330c.html</guid>
-      <pubDate>Fri, 09 Oct 2020 13:09:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;在一道密码学题目中碰到的问题，需要绕过Miller-Rabin素性测试，稍微记录一下&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/crypto/">crypto</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/crypto/">crypto</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/b7ee330c.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Linux 提权</title>
-      <link>https://blog.ycdxsb.cn/f3ed21e4.html</link>
-      <guid>https://blog.ycdxsb.cn/f3ed21e4.html</guid>
-      <pubDate>Tue, 06 Oct 2020 14:14:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;信息搜集&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#信息搜集&quot;&gt;¶&lt;/a&gt;信息搜集&lt;/h2&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/pentest/">pentest</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/pentest/">pentest</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/f3ed21e4.html#disqus_thread</comments>
       
     </item>
     

@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-03-25T09:33:42.899Z</updated>
+  <updated>2021-03-31T06:47:45.551Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,80 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>HEVD ArbitraryOverwrite BitMap [win7sp1]</title>
+    <link href="https://blog.ycdxsb.cn/f75b0e15.html"/>
+    <id>https://blog.ycdxsb.cn/f75b0e15.html</id>
+    <published>2021-03-31T14:14:00.000Z</published>
+    <updated>2021-03-31T06:47:45.551Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;前面，我们通过复写内核中的HalDispatchTable实现了提权，但是在内核中执行shellcode需要绕过很多保护措施的，因此这里我们引入一种新的方法实现对内核的利用&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="HEVD" scheme="https://blog.ycdxsb.cn/categories/research/HEVD/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="HEVD" scheme="https://blog.ycdxsb.cn/tags/HEVD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEVD ArbitraryOverwrite [win7sp1]</title>
+    <link href="https://blog.ycdxsb.cn/bbe71603.html"/>
+    <id>https://blog.ycdxsb.cn/bbe71603.html</id>
+    <published>2021-03-30T14:14:00.000Z</published>
+    <updated>2021-03-31T02:40:01.292Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;HEVD 系列第二类漏洞ArbitraryOverwrite&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="HEVD" scheme="https://blog.ycdxsb.cn/categories/research/HEVD/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="HEVD" scheme="https://blog.ycdxsb.cn/tags/HEVD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEVD StackOverFlow [win7sp1]</title>
+    <link href="https://blog.ycdxsb.cn/c09ea323.html"/>
+    <id>https://blog.ycdxsb.cn/c09ea323.html</id>
+    <published>2021-03-26T14:14:00.000Z</published>
+    <updated>2021-03-31T02:40:55.508Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;HEVD 系列第一类漏洞StackOverFlow&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="HEVD" scheme="https://blog.ycdxsb.cn/categories/research/HEVD/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="HEVD" scheme="https://blog.ycdxsb.cn/tags/HEVD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HEVD3.0环境搭建</title>
     <link href="https://blog.ycdxsb.cn/46ae8303.html"/>
     <id>https://blog.ycdxsb.cn/46ae8303.html</id>
     <published>2021-03-25T14:14:00.000Z</published>
-    <updated>2021-03-25T09:33:42.899Z</updated>
+    <updated>2021-03-26T08:47:39.551Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;基本环境&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本环境&quot;&gt;¶&lt;/a&gt;基本环境&lt;/h2&gt;&lt;p&gt;漏洞驱动：&lt;a href=&quot;https://github.com/hacksysteam/HackSysExtremeVulnerableDriver/&quot;&gt;HEVD 3.0&lt;/a&gt;&lt;br&gt;宿主机(Host)：Win10&lt;br&gt;被调试机(Guest)：VMware16.0 Win7sp1&lt;br&gt;调试工具：Windows Preview&lt;br&gt;驱动加载工具：&lt;a href=&quot;https://www.osronline.com/article.cfm%5earticle=157.htm&quot;&gt;OSRLoader&lt;/a&gt;&lt;/p&gt;</summary>
@@ -424,75 +493,6 @@
     <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
     
     <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CVE-2020-9484</title>
-    <link href="https://blog.ycdxsb.cn/de7e28a5.html"/>
-    <id>https://blog.ycdxsb.cn/de7e28a5.html</id>
-    <published>2020-10-28T04:22:00.000Z</published>
-    <updated>2021-03-23T00:11:21.022Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.5.0 to 8.5.54 and 7.0.0 to 7.0.103 if a) an attacker is able to control the contents and name of a file on the server; and b) the server is configured to use the PersistenceManager with a FileStore; and c) the PersistenceManager is configured with sessionAttributeValueClassNameFilter=“null” (the default unless a SecurityManager is used) or a sufficiently lax filter to allow the attacker provided object to be deserialized; and d) the attacker knows the relative file path from the storage location used by FileStore to the file the attacker has control over; then, using a specifically crafted request, the attacker will be able to trigger remote code execution via deserialization of the file under their control. Note that all of conditions a) to d) must be true for the attack to succeed.&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="CVE" scheme="https://blog.ycdxsb.cn/categories/CTF/CVE/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="CVE" scheme="https://blog.ycdxsb.cn/tags/CVE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Bypass Miller Rabin Test</title>
-    <link href="https://blog.ycdxsb.cn/b7ee330c.html"/>
-    <id>https://blog.ycdxsb.cn/b7ee330c.html</id>
-    <published>2020-10-09T13:09:00.000Z</published>
-    <updated>2021-03-23T00:11:21.026Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;在一道密码学题目中碰到的问题，需要绕过Miller-Rabin素性测试，稍微记录一下&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="crypto" scheme="https://blog.ycdxsb.cn/categories/CTF/crypto/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="crypto" scheme="https://blog.ycdxsb.cn/tags/crypto/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux 提权</title>
-    <link href="https://blog.ycdxsb.cn/f3ed21e4.html"/>
-    <id>https://blog.ycdxsb.cn/f3ed21e4.html</id>
-    <published>2020-10-06T14:14:00.000Z</published>
-    <updated>2021-03-23T00:40:58.190Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;信息搜集&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#信息搜集&quot;&gt;¶&lt;/a&gt;信息搜集&lt;/h2&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="pentest" scheme="https://blog.ycdxsb.cn/categories/CTF/pentest/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="pentest" scheme="https://blog.ycdxsb.cn/tags/pentest/"/>
     
   </entry>
   
