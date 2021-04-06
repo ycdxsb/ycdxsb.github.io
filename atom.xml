@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-03-31T06:47:45.551Z</updated>
+  <updated>2021-04-06T07:04:16.497Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,14 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>HEVD ArbitraryOverwrite BitMap [win7sp1]</title>
-    <link href="https://blog.ycdxsb.cn/f75b0e15.html"/>
-    <id>https://blog.ycdxsb.cn/f75b0e15.html</id>
+    <title>VMware Fusion 清理虚拟机磁盘</title>
+    <link href="https://blog.ycdxsb.cn/65b262b3.html"/>
+    <id>https://blog.ycdxsb.cn/65b262b3.html</id>
+    <published>2021-04-06T07:04:00.000Z</published>
+    <updated>2021-04-06T07:04:16.497Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;在虚拟机中删除文件，但是虚拟机磁盘占用并不会直接缩小，而是需要使用碎片回收的方法清理磁盘，减小占用空间&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="work" scheme="https://blog.ycdxsb.cn/categories/work/"/>
+    
+    
+    <category term="work" scheme="https://blog.ycdxsb.cn/tags/work/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEVD ArbitraryOverwrite BitMap [win10v1511x86]</title>
+    <link href="https://blog.ycdxsb.cn/ec47a9ad.html"/>
+    <id>https://blog.ycdxsb.cn/ec47a9ad.html</id>
     <published>2021-03-31T14:14:00.000Z</published>
-    <updated>2021-03-31T06:47:45.551Z</updated>
+    <updated>2021-04-01T01:46:25.144Z</updated>
     
     
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;前面，我们通过复写内核中的HalDispatchTable实现了提权，但是在内核中执行shellcode需要绕过很多保护措施的，因此这里我们引入一种新的方法实现对内核的利用&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;前面，我们通过复写内核中的HalDispatchTable实现了提权，但是在Win10以后，想在内核中执行shellcode需要绕过很多保护措施的，因此这里我们引入一种新的方法实现对内核的利用&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
@@ -459,29 +478,6 @@
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CodeQL之CWE-252</title>
-    <link href="https://blog.ycdxsb.cn/3f2f6cef.html"/>
-    <id>https://blog.ycdxsb.cn/3f2f6cef.html</id>
-    <published>2020-11-06T14:14:00.000Z</published>
-    <updated>2021-03-23T00:43:35.186Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;CWE-252: Unchecked Return Value&lt;/p&gt;&lt;p&gt;The software does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;顾名思义，&lt;code&gt;Unchecked Return Value&lt;/code&gt;，就是在实际代码中缺少了对返回值的检查，在实际代码中，对错误返回值的检查尤为重要，因为需要进入到相应的错误处理环节中去，否则会影响程序的正常运行。比如我们常见的对&lt;code&gt;malloc&lt;/code&gt;返回值的检查等等，和&lt;code&gt;CWE-252&lt;/code&gt;相关的还有&lt;code&gt;CWE-754&lt;/code&gt;、&lt;code&gt;CWE-273&lt;/code&gt;、&lt;code&gt;CWE-476&lt;/code&gt;&lt;/p&gt;</summary>
     
     
     
