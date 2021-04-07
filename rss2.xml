@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Tue, 06 Apr 2021 07:04:16 GMT</pubDate>
+    <pubDate>Wed, 07 Apr 2021 08:48:25 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>MS17-010 永恒之蓝利用</title>
+      <link>https://blog.ycdxsb.cn/24e83041.html</link>
+      <guid>https://blog.ycdxsb.cn/24e83041.html</guid>
+      <pubDate>Wed, 07 Apr 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;攻击机：kali&lt;/p&gt;&lt;p&gt;被攻击机：win7sp1&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pentest/">pentest</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/pentest/">pentest</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/24e83041.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>VMware Fusion 清理虚拟机磁盘</title>
@@ -506,31 +531,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/aaf64f84.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CodeQL之CWE-401(1)</title>
-      <link>https://blog.ycdxsb.cn/81db1c47.html</link>
-      <guid>https://blog.ycdxsb.cn/81db1c47.html</guid>
-      <pubDate>Sun, 08 Nov 2020 14:14:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;The software does not sufficiently track and release allocated memory after it has been used, which slowly consumes remaining memory.&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/81db1c47.html#disqus_thread</comments>
       
     </item>
     
