@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Wed, 07 Apr 2021 08:48:25 GMT</pubDate>
+    <pubDate>Sun, 18 Apr 2021 05:27:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Windows内核利用——从任意地址写到任意地址读写</title>
+      <link>https://blog.ycdxsb.cn/fdbd744b.html</link>
+      <guid>https://blog.ycdxsb.cn/fdbd744b.html</guid>
+      <pubDate>Sun, 18 Apr 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;Windows内核利用：使用GDI结构从任意地址写到任意地址读写利用技术的攻防演进&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/fdbd744b.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>MS17-010 永恒之蓝利用</title>
@@ -506,31 +531,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/b3ed7ec5.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CodeQL之CWE-401(2)</title>
-      <link>https://blog.ycdxsb.cn/aaf64f84.html</link>
-      <guid>https://blog.ycdxsb.cn/aaf64f84.html</guid>
-      <pubDate>Tue, 10 Nov 2020 14:14:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;在写第二类&lt;code&gt;CWE-401&lt;/code&gt;的查询脚本前，我们需要补充一些东西、在能找到的&lt;code&gt;codeql&lt;/code&gt;文档里，大部分都只强推了它的&lt;code&gt;DataFlow&lt;/code&gt;模块，而在写第二类查询脚本时，需要用到它的可达性分析模块&lt;code&gt;import semmle.code.cpp.controlflow.StackVariableReachability&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/codeql/">codeql</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/codeql/">codeql</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/aaf64f84.html#disqus_thread</comments>
       
     </item>
     

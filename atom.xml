@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-04-07T08:48:25.545Z</updated>
+  <updated>2021-04-18T05:27:37.324Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows内核利用——从任意地址写到任意地址读写</title>
+    <link href="https://blog.ycdxsb.cn/fdbd744b.html"/>
+    <id>https://blog.ycdxsb.cn/fdbd744b.html</id>
+    <published>2021-04-18T14:14:00.000Z</published>
+    <updated>2021-04-18T05:27:37.324Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;Windows内核利用：使用GDI结构从任意地址写到任意地址读写利用技术的攻防演进&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
+    
+    <category term="windows" scheme="https://blog.ycdxsb.cn/categories/research/windows/"/>
+    
+    
+    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
+    
+    <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>MS17-010 永恒之蓝利用</title>
@@ -455,29 +478,6 @@
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;在第一部分中，我们将&lt;code&gt;CWE-401&lt;/code&gt;简单分为两类，第一类是对于分配的内存，不存在路径对它进行了释放，第二类是有的路径释放了，而有的路径忘了释放，现在我们对第二类进行解决&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CodeQL之CWE-401(2)</title>
-    <link href="https://blog.ycdxsb.cn/aaf64f84.html"/>
-    <id>https://blog.ycdxsb.cn/aaf64f84.html</id>
-    <published>2020-11-10T14:14:00.000Z</published>
-    <updated>2021-03-23T00:44:28.618Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;在写第二类&lt;code&gt;CWE-401&lt;/code&gt;的查询脚本前，我们需要补充一些东西、在能找到的&lt;code&gt;codeql&lt;/code&gt;文档里，大部分都只强推了它的&lt;code&gt;DataFlow&lt;/code&gt;模块，而在写第二类查询脚本时，需要用到它的可达性分析模块&lt;code&gt;import semmle.code.cpp.controlflow.StackVariableReachability&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
