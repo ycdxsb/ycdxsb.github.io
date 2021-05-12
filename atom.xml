@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-05-06T09:03:44.341Z</updated>
+  <updated>2021-05-12T08:09:14.909Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Detecting Code Clones with Graph Neural Network and Flow-Augmented Abstract Syntax Tree(SANER 2020)</title>
+    <link href="https://blog.ycdxsb.cn/c3516a94.html"/>
+    <id>https://blog.ycdxsb.cn/c3516a94.html</id>
+    <published>2021-05-12T12:06:00.000Z</published>
+    <updated>2021-05-12T08:09:14.909Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;基本介绍&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本介绍&quot;&gt;¶&lt;/a&gt;基本介绍&lt;/h2&gt;&lt;p&gt;是一篇源代码和源代码相似性检测的论文，采用FA-AST构造图，然后使用图神经网络进行相似度计算&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
+    
+    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
+    
+    <category term="automatic_analyse" scheme="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/"/>
+    
+    
+    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
+    
+    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
+    
+    <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HEVD BufferOverflowNonPagedPool [win7sp1]</title>
     <link href="https://blog.ycdxsb.cn/806e98fe.html"/>
     <id>https://blog.ycdxsb.cn/806e98fe.html</id>
     <published>2021-05-06T14:14:00.000Z</published>
-    <updated>2021-05-06T09:03:44.341Z</updated>
+    <updated>2021-05-06T09:04:00.177Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;HEVD系列第三类漏洞BufferOverflowNonPagedPool&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -466,29 +493,6 @@
     <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
     
     <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CodeQL之CWE-401(4)</title>
-    <link href="https://blog.ycdxsb.cn/fcace802.html"/>
-    <id>https://blog.ycdxsb.cn/fcace802.html</id>
-    <published>2020-11-30T14:14:00.000Z</published>
-    <updated>2021-03-23T00:45:01.038Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;之前我们简要的将CWE-401分为了两类：第一类为(过程内)不存在一条路径，将已分配的内存进行了释放，而在写脚本时，我们并没有解决参数传递导致的误报&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/categories/research/codeql/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="codeql" scheme="https://blog.ycdxsb.cn/tags/codeql/"/>
     
   </entry>
   
