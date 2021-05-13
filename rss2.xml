@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Wed, 12 May 2021 08:09:14 GMT</pubDate>
+    <pubDate>Thu, 13 May 2021 12:25:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>CVE-2020-1054 堆越界读写</title>
+      <link>https://blog.ycdxsb.cn/fe2ed35f.html</link>
+      <guid>https://blog.ycdxsb.cn/fe2ed35f.html</guid>
+      <pubDate>Thu, 13 May 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本信息&quot;&gt;¶&lt;/a&gt;基本信息&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;漏洞类型：内存越界读写漏洞&lt;/li&gt;&lt;li&gt;漏洞位置：&lt;code&gt;win32k!vStrWrite01+0x36a&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/fe2ed35f.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Detecting Code Clones with Graph Neural Network and Flow-Augmented Abstract Syntax Tree(SANER 2020)</title>
@@ -506,35 +531,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/a453e6a.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Similarity of Binaries Across Optimization Levels and Obfuscation(ESORICS 2020)</title>
-      <link>https://blog.ycdxsb.cn/930679b9.html</link>
-      <guid>https://blog.ycdxsb.cn/930679b9.html</guid>
-      <pubDate>Thu, 10 Dec 2020 14:14:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;现有的二进制相似度检测工作并没有很好的解决编译优化和混淆带来的影响，所以作者提出了&lt;code&gt;IMOPT&lt;/code&gt;来重新优化代码，用于提高代码相似性检测的准确率。&lt;/p&gt;&lt;p&gt;该方法在测试集上和原本的Asm2vec相比，将精度提高了22.7%，并且可以缓解ollvm混淆带来的影响&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/930679b9.html#disqus_thread</comments>
       
     </item>
     
