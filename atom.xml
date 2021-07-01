@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-05-28T02:20:33.840Z</updated>
+  <updated>2021-07-01T05:50:41.920Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask(S&amp;P 2021)</title>
+    <link href="https://blog.ycdxsb.cn/a48fa437.html"/>
+    <id>https://blog.ycdxsb.cn/a48fa437.html</id>
+    <published>2021-06-30T12:06:00.000Z</published>
+    <updated>2021-07-01T05:50:41.920Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;是一篇二进制分析工具的SoK文章，内容十分繁多，但是收获颇丰&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
+    
+    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
+    
+    <category term="binary_analyse" scheme="https://blog.ycdxsb.cn/categories/papers/security/binary-analyse/"/>
+    
+    
+    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
+    
+    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
+    
+    <category term="binary analyse" scheme="https://blog.ycdxsb.cn/tags/binary-analyse/"/>
+    
+  </entry>
+  
+  <entry>
     <title>NTFUZZ: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis(S&amp;P 2021)</title>
     <link href="https://blog.ycdxsb.cn/84f38a6d.html"/>
     <id>https://blog.ycdxsb.cn/84f38a6d.html</id>
     <published>2021-05-27T16:07:00.000Z</published>
-    <updated>2021-05-28T02:20:33.840Z</updated>
+    <updated>2021-05-28T02:20:49.672Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;基本信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本信息&quot;&gt;¶&lt;/a&gt;基本信息&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;研究重点&lt;/strong&gt;：基于二进制文件静态分析，推断Nt系统调用的参数类型，然后对Nt系统调用进行Fuzz&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;：之前的一些kernel fuzz大致可以分为两种，1. 对windows kernel的一部分进行fuzz(font 组件等)；2.通过IOCTL接口对驱动进行fuzz&lt;/p&gt;&lt;p&gt;除了NtCall(工具)外还没有对系统调用进行fuzz的研究，而且NtCall的fuzz并未对系统调用参数的类型进行推断&lt;/p&gt;</summary>
@@ -462,37 +489,6 @@
     <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
     
     <category term="linux kernel" scheme="https://blog.ycdxsb.cn/tags/linux-kernel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ROP Emporium (中)</title>
-    <link href="https://blog.ycdxsb.cn/77e17aac.html"/>
-    <id>https://blog.ycdxsb.cn/77e17aac.html</id>
-    <published>2021-01-08T09:19:00.000Z</published>
-    <updated>2021-03-23T00:11:21.038Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;ROP Emporium 第二部分&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
-    
-    <category term="pwn" scheme="https://blog.ycdxsb.cn/categories/CTF/pwn/"/>
-    
-    <category term="stack_overflow" scheme="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/"/>
-    
-    <category term="ROP_Emporium" scheme="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/ROP-Emporium/"/>
-    
-    
-    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
-    
-    <category term="pwn" scheme="https://blog.ycdxsb.cn/tags/pwn/"/>
-    
-    <category term="stack overflow" scheme="https://blog.ycdxsb.cn/tags/stack-overflow/"/>
-    
-    <category term="ROP Emporium" scheme="https://blog.ycdxsb.cn/tags/ROP-Emporium/"/>
     
   </entry>
   

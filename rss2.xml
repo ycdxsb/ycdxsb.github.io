@@ -15,8 +15,37 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 28 May 2021 02:20:33 GMT</pubDate>
+    <pubDate>Thu, 01 Jul 2021 05:50:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask(S&amp;P 2021)</title>
+      <link>https://blog.ycdxsb.cn/a48fa437.html</link>
+      <guid>https://blog.ycdxsb.cn/a48fa437.html</guid>
+      <pubDate>Wed, 30 Jun 2021 12:06:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;是一篇二进制分析工具的SoK文章，内容十分繁多，但是收获颇丰&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/binary-analyse/">binary_analyse</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/binary-analyse/">binary analyse</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/a48fa437.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>NTFUZZ: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis(S&amp;P 2021)</title>
@@ -502,39 +531,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/8f72536d.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>ROP Emporium (中)</title>
-      <link>https://blog.ycdxsb.cn/77e17aac.html</link>
-      <guid>https://blog.ycdxsb.cn/77e17aac.html</guid>
-      <pubDate>Fri, 08 Jan 2021 09:19:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;ROP Emporium 第二部分&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/">pwn</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/">stack_overflow</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/CTF/pwn/stack-overflow/ROP-Emporium/">ROP_Emporium</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/pwn/">pwn</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/stack-overflow/">stack overflow</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/ROP-Emporium/">ROP Emporium</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/77e17aac.html#disqus_thread</comments>
       
     </item>
     
