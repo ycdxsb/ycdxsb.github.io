@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-07-05T06:25:33.128Z</updated>
+  <updated>2021-07-05T14:30:35.400Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0CTF 2021 划水小记</title>
+    <link href="https://blog.ycdxsb.cn/c165a3fd.html"/>
+    <id>https://blog.ycdxsb.cn/c165a3fd.html</id>
+    <published>2021-07-06T02:43:00.000Z</published>
+    <updated>2021-07-05T14:30:35.400Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;周末事情太多，就看了两道简单题&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
+    
+    <category term="writeup" scheme="https://blog.ycdxsb.cn/categories/CTF/writeup/"/>
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
+    
+    <category term="writeup" scheme="https://blog.ycdxsb.cn/tags/writeup/"/>
+    
+  </entry>
+  
+  <entry>
     <title>C/C++文件解析</title>
     <link href="https://blog.ycdxsb.cn/bbd76e46.html"/>
     <id>https://blog.ycdxsb.cn/bbd76e46.html</id>
     <published>2021-07-05T07:19:00.000Z</published>
-    <updated>2021-07-05T06:25:33.128Z</updated>
+    <updated>2021-07-05T06:25:38.656Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;由于主要研究C和C++，对函数、变量、类型提取等还是会经常用的，但是直接抱着ANTLR4手撸Visitor还是太傻了，所以调研了一下已有的一些工具，康康有没有好的解决方案&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -451,29 +474,6 @@
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;Windows 通过相互关联的&lt;strong&gt;身份验证&lt;/strong&gt;和&lt;strong&gt;授权机制&lt;/strong&gt;来控制&lt;strong&gt;系统资源&lt;/strong&gt;和&lt;strong&gt;网络资源&lt;/strong&gt;的使用。 对用户进行身份验证后，Windows 操作系统使用内置&lt;strong&gt;授权和访问控制技术&lt;/strong&gt;来实现保护资源的第二阶段：确定经过身份验证的用户是否具有访问资源的正确权限。&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="windows" scheme="https://blog.ycdxsb.cn/categories/research/windows/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>windows提权基础知识</title>
-    <link href="https://blog.ycdxsb.cn/2acbaae3.html"/>
-    <id>https://blog.ycdxsb.cn/2acbaae3.html</id>
-    <published>2021-02-11T14:14:00.000Z</published>
-    <updated>2021-03-23T00:51:42.754Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;调研调研，真的不想再调研了，淦！&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     

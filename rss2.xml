@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Mon, 05 Jul 2021 06:25:33 GMT</pubDate>
+    <pubDate>Mon, 05 Jul 2021 14:30:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>0CTF 2021 划水小记</title>
+      <link>https://blog.ycdxsb.cn/c165a3fd.html</link>
+      <guid>https://blog.ycdxsb.cn/c165a3fd.html</guid>
+      <pubDate>Tue, 06 Jul 2021 02:43:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;周末事情太多，就看了两道简单题&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/writeup/">writeup</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/writeup/">writeup</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/c165a3fd.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>C/C++文件解析</title>
@@ -502,31 +527,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/e2c44604.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>windows提权基础知识</title>
-      <link>https://blog.ycdxsb.cn/2acbaae3.html</link>
-      <guid>https://blog.ycdxsb.cn/2acbaae3.html</guid>
-      <pubDate>Thu, 11 Feb 2021 14:14:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;调研调研，真的不想再调研了，淦！&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/2acbaae3.html#disqus_thread</comments>
       
     </item>
     
