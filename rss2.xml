@@ -15,8 +15,29 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Thu, 01 Jul 2021 05:50:41 GMT</pubDate>
+    <pubDate>Mon, 05 Jul 2021 06:25:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>C/C++文件解析</title>
+      <link>https://blog.ycdxsb.cn/bbd76e46.html</link>
+      <guid>https://blog.ycdxsb.cn/bbd76e46.html</guid>
+      <pubDate>Mon, 05 Jul 2021 07:19:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;由于主要研究C和C++，对函数、变量、类型提取等还是会经常用的，但是直接抱着ANTLR4手撸Visitor还是太傻了，所以调研了一下已有的一些工具，康康有没有好的解决方案&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/tools/">tools</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/tools/">tools</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/bbd76e46.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask(S&amp;P 2021)</title>
@@ -506,31 +527,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/2acbaae3.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>linux权限管理机制</title>
-      <link>https://blog.ycdxsb.cn/8f72536d.html</link>
-      <guid>https://blog.ycdxsb.cn/8f72536d.html</guid>
-      <pubDate>Tue, 02 Feb 2021 14:14:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/linux-kernel/">linux_kernel</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/linux-kernel/">linux kernel</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/8f72536d.html#disqus_thread</comments>
       
     </item>
     

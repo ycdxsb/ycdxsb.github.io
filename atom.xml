@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-07-01T05:50:41.920Z</updated>
+  <updated>2021-07-05T06:25:33.128Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C/C++文件解析</title>
+    <link href="https://blog.ycdxsb.cn/bbd76e46.html"/>
+    <id>https://blog.ycdxsb.cn/bbd76e46.html</id>
+    <published>2021-07-05T07:19:00.000Z</published>
+    <updated>2021-07-05T06:25:33.128Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;由于主要研究C和C++，对函数、变量、类型提取等还是会经常用的，但是直接抱着ANTLR4手撸Visitor还是太傻了，所以调研了一下已有的一些工具，康康有没有好的解决方案&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://blog.ycdxsb.cn/categories/tools/"/>
+    
+    
+    <category term="tools" scheme="https://blog.ycdxsb.cn/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask(S&amp;P 2021)</title>
     <link href="https://blog.ycdxsb.cn/a48fa437.html"/>
     <id>https://blog.ycdxsb.cn/a48fa437.html</id>
     <published>2021-06-30T12:06:00.000Z</published>
-    <updated>2021-07-01T05:50:41.920Z</updated>
+    <updated>2021-07-01T05:50:52.080Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;是一篇二进制分析工具的SoK文章，内容十分繁多，但是收获颇丰&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -466,29 +485,6 @@
     <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
     
     <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux权限管理机制</title>
-    <link href="https://blog.ycdxsb.cn/8f72536d.html"/>
-    <id>https://blog.ycdxsb.cn/8f72536d.html</id>
-    <published>2021-02-02T14:14:00.000Z</published>
-    <updated>2021-03-23T00:51:02.718Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;包括文件管理机制和进程权限管理机制&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="linux_kernel" scheme="https://blog.ycdxsb.cn/categories/research/linux-kernel/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="linux kernel" scheme="https://blog.ycdxsb.cn/tags/linux-kernel/"/>
     
   </entry>
   
