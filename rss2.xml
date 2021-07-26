@@ -15,8 +15,33 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Mon, 05 Jul 2021 14:30:35 GMT</pubDate>
+    <pubDate>Mon, 26 Jul 2021 07:10:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>CVE-2020-0796(SMBGhost) RCE 复现</title>
+      <link>https://blog.ycdxsb.cn/6c5275ae.html</link>
+      <guid>https://blog.ycdxsb.cn/6c5275ae.html</guid>
+      <pubDate>Tue, 27 Jul 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;基本环境&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本环境&quot;&gt;¶&lt;/a&gt;基本环境&lt;/h3&gt;&lt;p&gt;攻击机：Kali Linux最新版，192.168.85.131&lt;/p&gt;&lt;p&gt;Python版本：3.6！！ 十分重要，Kali自带的3.9会蓝屏&lt;/p&gt;&lt;p&gt;被攻击机：Win10 v1903 （OS内部版本18362.356），192.168.85.145&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/pentest/">pentest</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/pentest/">pentest</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/6c5275ae.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>0CTF 2021 划水小记</title>
@@ -502,31 +527,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/17ea52bf.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>windows权限管理机制</title>
-      <link>https://blog.ycdxsb.cn/e2c44604.html</link>
-      <guid>https://blog.ycdxsb.cn/e2c44604.html</guid>
-      <pubDate>Mon, 22 Feb 2021 14:14:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;&lt;p&gt;Windows 通过相互关联的&lt;strong&gt;身份验证&lt;/strong&gt;和&lt;strong&gt;授权机制&lt;/strong&gt;来控制&lt;strong&gt;系统资源&lt;/strong&gt;和&lt;strong&gt;网络资源&lt;/strong&gt;的使用。 对用户进行身份验证后，Windows 操作系统使用内置&lt;strong&gt;授权和访问控制技术&lt;/strong&gt;来实现保护资源的第二阶段：确定经过身份验证的用户是否具有访问资源的正确权限。&lt;/p&gt;&lt;/blockquote&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/e2c44604.html#disqus_thread</comments>
       
     </item>
     
