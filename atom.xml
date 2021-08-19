@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-07-26T07:10:21.333Z</updated>
+  <updated>2021-08-19T07:52:32.592Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,14 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>FuzzingBook学习 Part2-1</title>
+    <link href="https://blog.ycdxsb.cn/6f260b49.html"/>
+    <id>https://blog.ycdxsb.cn/6f260b49.html</id>
+    <published>2021-08-19T07:04:00.000Z</published>
+    <updated>2021-08-19T07:52:32.592Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;Fuzzing: Breaking Things with Random Inputs&lt;/p&gt;&lt;p&gt;主要关注字符串生成的模糊测试方法，将生成的字符串输入程序，来测试是否会出现crash&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Fuzz" scheme="https://blog.ycdxsb.cn/categories/Fuzz/"/>
+    
+    <category term="FuzzingBook" scheme="https://blog.ycdxsb.cn/categories/Fuzz/FuzzingBook/"/>
+    
+    
+    <category term="Fuzz" scheme="https://blog.ycdxsb.cn/tags/Fuzz/"/>
+    
+    <category term="FuzzingBook" scheme="https://blog.ycdxsb.cn/tags/FuzzingBook/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CVE-2020-0796(SMBGhost) RCE 复现</title>
     <link href="https://blog.ycdxsb.cn/6c5275ae.html"/>
     <id>https://blog.ycdxsb.cn/6c5275ae.html</id>
     <published>2021-07-27T14:14:00.000Z</published>
-    <updated>2021-07-26T07:10:21.333Z</updated>
+    <updated>2021-07-26T07:10:31.257Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;基本环境&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本环境&quot;&gt;¶&lt;/a&gt;基本环境&lt;/h3&gt;&lt;p&gt;攻击机：Kali Linux最新版，192.168.85.131&lt;/p&gt;&lt;p&gt;Python版本：3.6！！ 十分重要，Kali自带的3.9会蓝屏&lt;/p&gt;&lt;p&gt;被攻击机：Win10 v1903 （OS内部版本18362.356），192.168.85.145&lt;/p&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;基本环境&quot;&gt;&lt;a href=&quot;#基本环境&quot; class=&quot;headerlink&quot; title=&quot;基本环境&quot;&gt;&lt;/a&gt;基本环境&lt;/h3&gt;&lt;p&gt;攻击机：Kali Linux最新版，192.168.85.131&lt;/p&gt;&lt;p&gt;Python版本：3.6！！ 十分重要，Kali自带的3.9会蓝屏&lt;/p&gt;&lt;p&gt;被攻击机：Win10 v1903 （OS内部版本18362.356），192.168.85.145&lt;/p&gt;</summary>
     
     
     
@@ -462,29 +485,6 @@
     <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
     
     <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows Kernel Resources</title>
-    <link href="https://blog.ycdxsb.cn/17ea52bf.html"/>
-    <id>https://blog.ycdxsb.cn/17ea52bf.html</id>
-    <published>2021-03-18T14:14:00.000Z</published>
-    <updated>2021-04-20T00:24:30.863Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;windows kernel学习资料整理,Github链接为&lt;a href=&quot;https://github.com/ycdxsb/Windows_Kernel_Resources&quot;&gt;Windows_kernel_Resources&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="windows" scheme="https://blog.ycdxsb.cn/categories/research/windows/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
     
   </entry>
   
