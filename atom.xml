@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-08-19T07:52:32.592Z</updated>
+  <updated>2021-09-17T04:51:23.328Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -17,20 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2021 5space 第五空间线上部分writeup</title>
+    <link href="https://blog.ycdxsb.cn/a0dc8841.html"/>
+    <id>https://blog.ycdxsb.cn/a0dc8841.html</id>
+    <published>2021-09-18T02:43:00.000Z</published>
+    <updated>2021-09-17T04:51:23.328Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;时隔一年，再次以LQers之名打比赛&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
+    
+    <category term="writeup" scheme="https://blog.ycdxsb.cn/categories/CTF/writeup/"/>
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
+    
+    <category term="writeup" scheme="https://blog.ycdxsb.cn/tags/writeup/"/>
+    
+  </entry>
+  
+  <entry>
     <title>FuzzingBook学习 Part2-1</title>
     <link href="https://blog.ycdxsb.cn/6f260b49.html"/>
     <id>https://blog.ycdxsb.cn/6f260b49.html</id>
     <published>2021-08-19T07:04:00.000Z</published>
-    <updated>2021-08-19T07:52:32.592Z</updated>
+    <updated>2021-08-19T07:52:56.332Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;Fuzzing: Breaking Things with Random Inputs&lt;/p&gt;&lt;p&gt;主要关注字符串生成的模糊测试方法，将生成的字符串输入程序，来测试是否会出现crash&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
-    <category term="Fuzz" scheme="https://blog.ycdxsb.cn/categories/Fuzz/"/>
+    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
     
-    <category term="FuzzingBook" scheme="https://blog.ycdxsb.cn/categories/Fuzz/FuzzingBook/"/>
+    <category term="Fuzz" scheme="https://blog.ycdxsb.cn/categories/research/Fuzz/"/>
+    
+    <category term="FuzzingBook" scheme="https://blog.ycdxsb.cn/categories/research/Fuzz/FuzzingBook/"/>
     
     
     <category term="Fuzz" scheme="https://blog.ycdxsb.cn/tags/Fuzz/"/>
@@ -458,33 +483,6 @@
     <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
     
     <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Too Quiet in the Library-An Empirical Study of Security Updates in Android Apps Native Code(ICSE 2021)</title>
-    <link href="https://blog.ycdxsb.cn/dc7da355.html"/>
-    <id>https://blog.ycdxsb.cn/dc7da355.html</id>
-    <published>2021-03-20T15:57:00.000Z</published>
-    <updated>2021-03-23T01:15:14.151Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;论文：&lt;a href=&quot;https://arxiv.org/pdf/1911.09716.pdf&quot;&gt;https://arxiv.org/pdf/1911.09716.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;代码：&lt;a href=&quot;https://github.com/salmanee/Librarian&quot;&gt;https://github.com/salmanee/Librarian&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="papers" scheme="https://blog.ycdxsb.cn/categories/papers/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/categories/papers/security/"/>
-    
-    <category term="automatic_analyse" scheme="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/"/>
-    
-    
-    <category term="paper" scheme="https://blog.ycdxsb.cn/tags/paper/"/>
-    
-    <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
-    
-    <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
     
   </entry>
   
