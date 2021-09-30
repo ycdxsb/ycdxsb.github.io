@@ -15,7 +15,7 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Fri, 17 Sep 2021 04:51:23 GMT</pubDate>
+    <pubDate>Sat, 18 Sep 2021 02:15:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -40,6 +40,31 @@
       
       
       <comments>https://blog.ycdxsb.cn/a0dc8841.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>BUUCTF Crypto writeup</title>
+      <link>https://blog.ycdxsb.cn/25dfb119.html</link>
+      <guid>https://blog.ycdxsb.cn/25dfb119.html</guid>
+      <pubDate>Wed, 01 Sep 2021 02:43:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;考虑到大部分人有直接抄答案的习惯，所以只给一些hint和关键步骤&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/CTF/writeup/">writeup</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/CTF/">CTF</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/writeup/">writeup</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/25dfb119.html#disqus_thread</comments>
       
     </item>
     
@@ -500,31 +525,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/953aec69.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CVE-2020-0796 SMB Ghost 整数溢出漏洞</title>
-      <link>https://blog.ycdxsb.cn/6ba048bc.html</link>
-      <guid>https://blog.ycdxsb.cn/6ba048bc.html</guid>
-      <pubDate>Tue, 23 Mar 2021 14:14:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;漏洞位置：SMB服务驱动srv2.sys和srvnet.sys&lt;/p&gt;&lt;p&gt;漏洞原因：用户态可控数据传入内核，SMB在解压数据包的时候使用客户端传过来的长度进行解压时,并没有检查长度是否合法，导致整数溢出，最后通过构造payload，实现任意地址写，替换token权限提权&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/6ba048bc.html#disqus_thread</comments>
       
     </item>
     

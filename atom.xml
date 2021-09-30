@@ -6,7 +6,7 @@
   <link href="https://blog.ycdxsb.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ycdxsb.cn/"/>
-  <updated>2021-09-17T04:51:23.328Z</updated>
+  <updated>2021-09-18T02:15:47.486Z</updated>
   <id>https://blog.ycdxsb.cn/</id>
   
   <author>
@@ -21,10 +21,33 @@
     <link href="https://blog.ycdxsb.cn/a0dc8841.html"/>
     <id>https://blog.ycdxsb.cn/a0dc8841.html</id>
     <published>2021-09-18T02:43:00.000Z</published>
-    <updated>2021-09-17T04:51:23.328Z</updated>
+    <updated>2021-09-18T02:15:47.486Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;时隔一年，再次以LQers之名打比赛&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/categories/CTF/"/>
+    
+    <category term="writeup" scheme="https://blog.ycdxsb.cn/categories/CTF/writeup/"/>
+    
+    
+    <category term="CTF" scheme="https://blog.ycdxsb.cn/tags/CTF/"/>
+    
+    <category term="writeup" scheme="https://blog.ycdxsb.cn/tags/writeup/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BUUCTF Crypto writeup</title>
+    <link href="https://blog.ycdxsb.cn/25dfb119.html"/>
+    <id>https://blog.ycdxsb.cn/25dfb119.html</id>
+    <published>2021-09-01T02:43:00.000Z</published>
+    <updated>2021-09-30T07:16:33.817Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;考虑到大部分人有直接抄答案的习惯，所以只给一些hint和关键步骤&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
@@ -44,7 +67,7 @@
     <link href="https://blog.ycdxsb.cn/6f260b49.html"/>
     <id>https://blog.ycdxsb.cn/6f260b49.html</id>
     <published>2021-08-19T07:04:00.000Z</published>
-    <updated>2021-08-19T07:52:56.332Z</updated>
+    <updated>2021-09-17T04:53:35.472Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;&lt;p&gt;Fuzzing: Breaking Things with Random Inputs&lt;/p&gt;&lt;p&gt;主要关注字符串生成的模糊测试方法，将生成的字符串输入程序，来测试是否会出现crash&lt;/p&gt;&lt;/blockquote&gt;</summary>
@@ -460,29 +483,6 @@
     <category term="security" scheme="https://blog.ycdxsb.cn/tags/security/"/>
     
     <category term="automatic analyse" scheme="https://blog.ycdxsb.cn/tags/automatic-analyse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CVE-2020-0796 SMB Ghost 整数溢出漏洞</title>
-    <link href="https://blog.ycdxsb.cn/6ba048bc.html"/>
-    <id>https://blog.ycdxsb.cn/6ba048bc.html</id>
-    <published>2021-03-23T14:14:00.000Z</published>
-    <updated>2021-03-23T03:27:41.775Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;漏洞位置：SMB服务驱动srv2.sys和srvnet.sys&lt;/p&gt;&lt;p&gt;漏洞原因：用户态可控数据传入内核，SMB在解压数据包的时候使用客户端传过来的长度进行解压时,并没有检查长度是否合法，导致整数溢出，最后通过构造payload，实现任意地址写，替换token权限提权&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/categories/research/"/>
-    
-    <category term="windows" scheme="https://blog.ycdxsb.cn/categories/research/windows/"/>
-    
-    
-    <category term="research" scheme="https://blog.ycdxsb.cn/tags/research/"/>
-    
-    <category term="windows" scheme="https://blog.ycdxsb.cn/tags/windows/"/>
     
   </entry>
   
