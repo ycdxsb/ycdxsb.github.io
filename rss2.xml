@@ -15,8 +15,62 @@
     <atom:link href="https://blog.ycdxsb.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>About My Life and Study</description>
-    <pubDate>Sat, 18 Sep 2021 02:15:47 GMT</pubDate>
+    <pubDate>Fri, 22 Oct 2021 02:23:13 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Detecting Missed Security Operations Through Differential Checking of Object-based Similar Paths(CCS 2021)</title>
+      <link>https://blog.ycdxsb.cn/e6c8cbe9.html</link>
+      <guid>https://blog.ycdxsb.cn/e6c8cbe9.html</guid>
+      <pubDate>Fri, 22 Oct 2021 15:57:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;这是一篇卢康杰教授组在 CCS 2021被接收的论文，使用 基于对象的相似检查路径 差异检查 来检测 遗漏的安全操作&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/e6c8cbe9.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Windows RpcEptMapper服务注册表项配置错误提权</title>
+      <link>https://blog.ycdxsb.cn/84e94195.html</link>
+      <guid>https://blog.ycdxsb.cn/84e94195.html</guid>
+      <pubDate>Fri, 15 Oct 2021 14:14:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;&lt;p&gt;跟着itm4n大佬看下这个没有CVE编号的提权漏洞是怎么肥事&lt;/p&gt;&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
+      
+      
+      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
+      
+      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
+      
+      
+      <comments>https://blog.ycdxsb.cn/84e94195.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2021 5space 第五空间线上部分writeup</title>
@@ -471,60 +525,6 @@
       
       
       <comments>https://blog.ycdxsb.cn/46ae8303.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CVE-2020-0787 BITS任意文件移动漏洞</title>
-      <link>https://blog.ycdxsb.cn/57177eae.html</link>
-      <guid>https://blog.ycdxsb.cn/57177eae.html</guid>
-      <pubDate>Wed, 24 Mar 2021 14:14:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;漏洞组件：后台智能传输服务模块(BITS)&lt;/p&gt;&lt;p&gt;组件特点：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;从HTTP Web服务器和SMB文件共享下载文件或将文件上传到HTTP Web服务器和SMB文件共享。&lt;/li&gt;&lt;li&gt;BITS将考虑传输成本以及网络使用情况，以便用户的前台工作影响尽可能小&lt;/li&gt;&lt;li&gt;即使重新启动后，BITS也可以处理网络中断，暂停并自动恢复传输。&lt;/li&gt;&lt;/ol&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/research/windows/">windows</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/research/">research</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/windows/">windows</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/57177eae.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>ATVHUNTER:Reliable Version Detection of Third-Party Libraries for Vulnerability Identification in Android Applications(ICSE 2021)</title>
-      <link>https://blog.ycdxsb.cn/953aec69.html</link>
-      <guid>https://blog.ycdxsb.cn/953aec69.html</guid>
-      <pubDate>Tue, 23 Mar 2021 15:57:00 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;基本介绍&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#基本介绍&quot;&gt;¶&lt;/a&gt;基本介绍&lt;/h2&gt;&lt;p&gt;**研究背景：**安卓中第三方库(TPLs)使用十分常见，检测第三方库对于漏洞识别等都十分有用，但是由于TPL的分散性、直接或间接的依赖性以及应用中TPL信息的不透明性，现有工具不能很好的检测，更不用说检测具体某版本&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/">papers</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/security/">security</category>
-      
-      <category domain="https://blog.ycdxsb.cn/categories/papers/security/automatic-analyse/">automatic_analyse</category>
-      
-      
-      <category domain="https://blog.ycdxsb.cn/tags/paper/">paper</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/security/">security</category>
-      
-      <category domain="https://blog.ycdxsb.cn/tags/automatic-analyse/">automatic analyse</category>
-      
-      
-      <comments>https://blog.ycdxsb.cn/953aec69.html#disqus_thread</comments>
       
     </item>
     
